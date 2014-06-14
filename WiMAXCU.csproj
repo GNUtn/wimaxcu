@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: E:\Extracted\program files\Intel\WiMAX\Bin\WiMAXCU.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5BDA94A-C2AD-47C0-95B9-BC257B044256}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>WiMAXCU</AssemblyName>
+    <ApplicationVersion>6.2.4357.25644</ApplicationVersion>
+    <RootNamespace>Intel.Mobile.WiMAXCU.UI.Dashboard</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WiMAXCU_UICustomControls">
+      <HintPath>lib\WiMAXCU_UICustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="WiMAXCU_Common">
+      <HintPath>lib\WiMAXCU_Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WiMAXCU_WiMAXSDKInterop">
+      <HintPath>lib\WiMAXCU_WiMAXSDKInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="WiMAXCU_BizTier">
+      <HintPath>lib\WiMAXCU_BizTier.dll</HintPath>
+    </Reference>
+    <Reference Include="WiMAXCU_UIDisplayWiMAX">
+      <HintPath>lib\WiMAXCU_UIDisplayWiMAX.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Timers.cs" />
+    <Compile Include="ConnectionBrandingPanel.cs" />
+    <Compile Include="TaskbarTabPanel.cs" />
+    <Compile Include="INetworkPropertiesGroupBox.cs" />
+    <Compile Include="UnidentifiedNetworkGroupBox.cs" />
+    <Compile Include="ManageNetworksPanel.cs" />
+    <Compile Include="ManageNetworksDialog.cs" />
+    <Compile Include="TaskTray.cs" />
+    <Compile Include="AnimatedScanOrConnectImage.cs" />
+    <Compile Include="TaskTrayAnimatedIcon.cs" />
+    <Compile Include="UIHelper.cs" />
+    <Compile Include="ConnectionDetailsNone.cs" />
+    <Compile Include="FUMOProgressDialog.cs" />
+    <Compile Include="NetworkDetailsPanel.cs" />
+    <Compile Include="ProfileListBox.cs" />
+    <Compile Include="CustomMessageBoxPanel.cs" />
+    <Compile Include="DashboardAndTaskTray.cs" />
+    <Compile Include="ConnectionSubDetails.cs" />
+    <Compile Include="ConnectionSubDetailItem.cs" />
+    <Compile Include="TechSupportDialog.cs" />
+    <Compile Include="FUMOProgressPanel.cs" />
+    <Compile Include="ErrorDialog.cs" />
+    <Compile Include="CustomMessageBoxStyle.cs" />
+    <Compile Include="CustomMessageBoxLocation.cs" />
+    <Compile Include="DontShowThisMessageAgainOptions.cs" />
+    <Compile Include="CustomMessageBox.cs" />
+    <Compile Include="TaskTrayBalloonPanel.cs" />
+    <Compile Include="PreferencesDialog.cs" />
+    <Compile Include="CredentialsGroupBox.cs" />
+    <Compile Include="ApplicationTabPanel.cs" />
+    <Compile Include="NetworkPropertiesPanel.cs" />
+    <Compile Include="UpdateSaveBtnDelegate.cs" />
+    <Compile Include="NetworkPropertiesDialog.cs" />
+    <Compile Include="NetworkDetailsDialog.cs" />
+    <Compile Include="AppHandler.cs" />
+    <Compile Include="TechSupportPanel.cs" />
+    <Compile Include="ContactInfoType.cs" />
+    <Compile Include="ClickableCustomMessageBox.cs" />
+    <Compile Include="WhichLinkClicked.cs" />
+    <Compile Include="ApdoFumoSimulator.cs" />
+    <Compile Include="AppFramework.cs" />
+    <Compile Include="SettingsTabPanel.cs" />
+    <Compile Include="AboutDialog.cs" />
+    <Compile Include="SystemMenu.cs" />
+    <Compile Include="DashboardStringHelper.cs" />
+    <Compile Include="PreferencesDlgStringHelper.cs" />
+    <Compile Include="AdvancedDlgStringHelper.cs" />
+    <Compile Include="TaskTrayStringHelper.cs" />
+    <Compile Include="NetworkDetailsDlgStringHelper.cs" />
+    <Compile Include="ErrorDlgStringHelper.cs" />
+    <Compile Include="NetworkPropertiesDlgStringHelper.cs" />
+    <Compile Include="ManageNetworksDlgStringHelper.cs" />
+    <Compile Include="ErrorStringsHelper.cs" />
+    <Compile Include="TechSupportDlgStringHelper.cs" />
+    <Compile Include="AboutDlgStringHelper.cs" />
+    <Compile Include="FUMOProgressDlgStringHelper.cs" />
+    <Compile Include="BrandingStringHelper.cs" />
+    <Compile Include="CustomMessageBoxStringHelper.cs" />
+    <Compile Include="DashboardSizingAndSpacingHelper.cs" />
+    <Compile Include="APDOEventHandler.cs" />
+    <Compile Include="ErrorPanel.cs" />
+    <Compile Include="ProfileSortEnum.cs" />
+    <Compile Include="ProfileSortHelper.cs" />
+    <Compile Include="SortByPreferredProfileAscendingComparer.cs" />
+    <Compile Include="SortByPreferredProfileDescendingComparer.cs" />
+    <Compile Include="SortByProfileNameAscendingComparer.cs" />
+    <Compile Include="SortByProfileNameDescendingComparer.cs" />
+    <Compile Include="AdvancedDialog.cs" />
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="NetworkListMessage.cs" />
+    <Compile Include="PreferencesPanel.cs" />
+    <Compile Include="Dashboard.cs" />
+    <Compile Include="DashboardMode.cs" />
+    <Compile Include="NetworkListStatusBar.cs" />
+    <Compile Include="AboutPanel.cs" />
+    <Compile Include="ClickableCustomMessageBoxPanel.cs" />
+    <Compile Include="AppFrameworkHelper.cs" />
+    <Compile Include="Declarations.cs" />
+    <Compile Include="OEM.cs" />
+    <Compile Include="ContactInfo.cs" />
+    <Compile Include="Branding.cs" />
+    <Compile Include="LeftImage.cs" />
+    <Compile Include="CenterImage.cs" />
+    <Compile Include="TaskTrayContextMenu.cs" />
+    <Compile Include="ConnectionDetailsStatus.cs" />
+    <Compile Include="StatusImageEnum.cs" />
+    <Compile Include="DetailsStatusAnimatedImage.cs" />
+    <Compile Include="WindowDragHelper.cs" />
+    <Compile Include="AnimatedImageInfo.cs" />
+    <Compile Include="NetworkListPanel.cs" />
+    <Compile Include="ConnectionDetails.cs" />
+    <Compile Include="HelpTopics.cs" />
+    <Compile Include="OnlineHelp.cs" />
+    <Compile Include="NoPropertiesGroupBox.cs" />
+    <Compile Include="OEMHelper.cs" />
+    <Compile Include="StatusBarAnimatedImage.cs" />
+    <Compile Include="TaskTrayPopupClickOptions.cs" />
+    <Compile Include="TaskTrayPopupDialog.cs" />
+    <Compile Include="NetworkListBox.cs" />
+    <Compile Include="CustomNetworkListBox.cs" />
+    <Compile Include="ConnectionSubDetailUptime.cs" />
+    <Compile Include="ConnectionPanel.cs" />
+    <Compile Include="ProfileSelectedDelegate.cs" />
+    <Compile Include="SetAsDefaultDelegate.cs" />
+    <Compile Include="ProperitesDelegate.cs" />
+    <Compile Include="EnableSetAsDefaultDelegate.cs" />
+    <Compile Include="EnableProperitesDelegate.cs" />
+    <Compile Include="CustomProfileListBox.cs" />
+    <Compile Include="ErrorHelper.cs" />
+    <Compile Include="AdvancedPanel.cs" />
+    <Compile Include="TaskBarHelper.cs" />
+    <Compile Include="AdapterTabPanel.cs" />
+    <Compile Include="Resources\Strings\ManageNetworksDialogStrings.cs" />
+    <Compile Include="Resources\Strings\AdvancedDialogStrings.cs" />
+    <Compile Include="Resources\Strings\ErrorStrings.cs" />
+    <Compile Include="Resources\Strings\DashboardSizingAndSpacing.cs" />
+    <Compile Include="Resources\Strings\TechSupportDialogStrings.cs" />
+    <Compile Include="Resources\Strings\AboutDialogStrings.cs" />
+    <Compile Include="Resources\Strings\CustomMessageBoxStrings.cs" />
+    <Compile Include="Resources\Strings\NetworkPropertiesDialogStrings.cs" />
+    <Compile Include="Resources\Strings\FUMOProgressDialogStrings.cs" />
+    <Compile Include="Resources\Strings\BrandingStrings.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutDialog.resx" />
+    <EmbeddedResource Include="AboutPanel.resx" />
+    <EmbeddedResource Include="AdapterTabPanel.resx" />
+    <EmbeddedResource Include="AdvancedDialog.resx" />
+    <EmbeddedResource Include="AdvancedPanel.resx" />
+    <EmbeddedResource Include="APDOEventHandler.resx" />
+    <EmbeddedResource Include="ApdoFumoSimulator.resx" />
+    <EmbeddedResource Include="ApplicationTabPanel.resx" />
+    <EmbeddedResource Include="ConnectionBrandingPanel.resx" />
+    <EmbeddedResource Include="ConnectionDetails.resx" />
+    <EmbeddedResource Include="ConnectionDetailsNone.resx" />
+    <EmbeddedResource Include="ConnectionDetailsStatus.resx" />
+    <EmbeddedResource Include="ConnectionSubDetailItem.resx" />
+    <EmbeddedResource Include="ConnectionSubDetails.resx" />
+    <EmbeddedResource Include="ConnectionSubDetailUptime.resx" />
+    <EmbeddedResource Include="CustomMessageBox.resx" />
+    <EmbeddedResource Include="CustomMessageBoxPanel.resx" />
+    <EmbeddedResource Include="Dashboard.resx" />
+    <EmbeddedResource Include="ErrorDialog.resx" />
+    <EmbeddedResource Include="ErrorPanel.resx" />
+    <EmbeddedResource Include="FUMOProgressDialog.resx" />
+    <EmbeddedResource Include="FUMOProgressPanel.resx" />
+    <EmbeddedResource Include="ManageNetworksDialog.resx" />
+    <EmbeddedResource Include="ManageNetworksPanel.resx" />
+    <EmbeddedResource Include="NetworkDetailsDialog.resx" />
+    <EmbeddedResource Include="NetworkDetailsPanel.resx" />
+    <EmbeddedResource Include="NetworkListBox.resx" />
+    <EmbeddedResource Include="NetworkListMessage.resx" />
+    <EmbeddedResource Include="NetworkListPanel.resx" />
+    <EmbeddedResource Include="NetworkListStatusBar.resx" />
+    <EmbeddedResource Include="NetworkPropertiesDialog.resx" />
+    <EmbeddedResource Include="NetworkPropertiesPanel.resx" />
+    <EmbeddedResource Include="NoPropertiesGroupBox.resx" />
+    <EmbeddedResource Include="PreferencesDialog.resx" />
+    <EmbeddedResource Include="PreferencesPanel.resx" />
+    <EmbeddedResource Include="ProfileListBox.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\Bitmaps\OOBEImg.png" />
+    <EmbeddedResource Include="Resources\Strings\AboutDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\AdvancedDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\BrandingStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\CustomMessageBoxStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\DashboardSizingAndSpacing.resx" />
+    <EmbeddedResource Include="Resources\Strings\DashboardStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\ErrorDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\ErrorStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\FUMOProgressDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\ManageNetworksDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\NetworkDetailsDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\NetworkPropertiesDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\PreferencesDialogStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\TaskTrayStrings.resx" />
+    <EmbeddedResource Include="Resources\Strings\TechSupportDialogStrings.resx" />
+    <EmbeddedResource Include="SplashScreen.resx" />
+    <EmbeddedResource Include="TaskbarTabPanel.resx" />
+    <EmbeddedResource Include="TaskTray.resx" />
+    <EmbeddedResource Include="TaskTrayBalloonPanel.resx" />
+    <EmbeddedResource Include="TaskTrayPopupDialog.resx" />
+    <EmbeddedResource Include="TechSupportDialog.resx" />
+    <EmbeddedResource Include="TechSupportPanel.resx" />
+    <EmbeddedResource Include="UnidentifiedNetworkGroupBox.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

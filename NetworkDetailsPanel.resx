@@ -1,0 +1,1500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NetworkDetailsPanel_Tree.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQ0AAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNo
+        aWxkQ291bnQJY2hpbGRyZW4wCWNoaWxkcmVuMQljaGlsZHJlbjIIVXNlckRhdGEBAQEAAAEAAQAEBAQB
+        AQgICB1TeXN0ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQIAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMu
+        VHJlZU5vZGUCAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlAgAAAAIAAAAGAwAAAAlDb25u
+        ZWN0ZWQGBAAAAAAGBQAAABJUcmVlX0Nvbm5lY3RlZE5vZGUA/////wkEAAAA/////wkEAAAAAwAAAAkH
+        AAAACQgAAAAJCQAAAAYKAAAABU5vZGUzBQcAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5vZGUK
+        AAAABFRleHQLVG9vbFRpcFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtleRJTZWxl
+        Y3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50CFVzZXJEYXRhAQEBAAABAAEA
+        AQEICAgCAAAABgsAAAAIU2VjdXJpdHkJBAAAAAYNAAAAEVRyZWVfU2VjdXJpdHlOb2RlAP////8JBAAA
+        AP////8JBAAAAAAAAAAGDwAAAAVOb2RlNAUIAAAAHVN5c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2Rl
+        CgAAAARUZXh0C1Rvb2xUaXBUZXh0BE5hbWUJSXNDaGVja2VkCkltYWdlSW5kZXgISW1hZ2VLZXkSU2Vs
+        ZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkKQ2hpbGRDb3VudAhVc2VyRGF0YQEBAQAAAQAB
+        AAEBCAgIAgAAAAYQAAAAClN0YXRpc3RpY3MJBAAAAAYSAAAAE1RyZWVfU3RhdGlzdGljc05vZGUA////
+        /wkEAAAA/////wkEAAAAAAAAAAYUAAAABU5vZGU1BQkAAAAdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJl
+        ZU5vZGUKAAAABFRleHQLVG9vbFRpcFRleHQETmFtZQlJc0NoZWNrZWQKSW1hZ2VJbmRleAhJbWFnZUtl
+        eRJTZWxlY3RlZEltYWdlSW5kZXgQU2VsZWN0ZWRJbWFnZUtleQpDaGlsZENvdW50CFVzZXJEYXRhAQEB
+        AAABAAEAAQEICAgCAAAABhUAAAAIQWR2YW5jZWQJBAAAAAYXAAAAGlRyZWVfQ29ubmVjdGVkQWR2YW5j
+        ZWROb2RlAP////8JBAAAAP////8JBAAAAAAAAAAGGQAAAAVOb2RlNgs=
+</value>
+  </data>
+  <data name="NetworkDetailsPanel_Tree.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQoAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNo
+        aWxkQ291bnQIVXNlckRhdGEBAQEAAAEAAQABAQgICAIAAAAGAwAAAAhBZHZhbmNlZAYEAAAAAAYFAAAA
+        EVRyZWVfQWR2YW5jZWROb2RlAP////8JBAAAAP////8JBAAAAAAAAAAGBwAAAAVOb2RlMgs=
+</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AdvancedPanel_CINRValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 155</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 220</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StatisticsPanel_BytesReceivedLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRLbl.Parent" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="NetworkDetailsPanel_HeaderLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt, style=Bold</value>
+  </data>
+  <data name="NetworkDetailsPanel_HeaderLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 57</value>
+  </data>
+  <data name="NetworkDetailsPanel_HeaderLbl.Text" xml:space="preserve">
+    <value>Network Details - &lt;Network Name&gt;</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_MainPanel.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_MainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GeneralPanel_SupportValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameLbl.Text" xml:space="preserve">
+    <value>Domain name:</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressLbl.Text" xml:space="preserve">
+    <value>IP address:</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 135</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalValueLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GeneralPanel_PreferredValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 155</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel.Name" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkPanel_CloseBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NetworkPanel_CloseBtn.Name" xml:space="preserve">
+    <value>NetworkPanel_CloseBtn</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqValueLbl.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel_ChannelFreqValueLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedLbl.Name" xml:space="preserve">
+    <value>SecurityPanel_EncryptedLbl</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationValueLbl.Parent" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+  <data name="AdvancedPanel_CINRValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AdvancedPanel_CINRValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqLbl.Text" xml:space="preserve">
+    <value>Channel frequency:</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AdvancedPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 0</value>
+  </data>
+  <data name="GeneralPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 0</value>
+  </data>
+  <data name="NetworkDetailsPanel_CloseBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_CloseBtnBox.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel_CloseBtnBox</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_CloseBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NetworkDetailsPanel_MainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 66</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 350</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdLbl.Name" xml:space="preserve">
+    <value>AdvancedPanel_NetworkIdLbl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="NetworkDetailsPanel_HeaderLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ConnectedPanel_DurationLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GeneralPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 250</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressValueLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentValueLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+  <data name="StatisticsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="StatisticsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 0</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationLbl.Parent" xml:space="preserve">
+    <value>ConnectedPanel</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerLbl.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel_TransmitPowerLbl</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="GeneralPanel_SupportLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="GeneralPanel_SupportLbl.Text" xml:space="preserve">
+    <value>Support website:</value>
+  </data>
+  <data name="GeneralPanel_SupportLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressValueLbl.Parent" xml:space="preserve">
+    <value>ConnectedPanel</value>
+  </data>
+  <data name="AdvancedPanel_RSSILbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationValueLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentValueLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_BytesSentValueLbl</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameValueLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="GeneralPanel_SupportLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 200</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ConnectedPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 250</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_PreferredLbl</value>
+  </data>
+  <data name="GeneralPanel_SupportLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdLbl.Text" xml:space="preserve">
+    <value>Network id:</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="NetworkDetailsPanel_Tree.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQoAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNo
+        aWxkQ291bnQIVXNlckRhdGEBAQEAAAEAAQABAQgICAIAAAAGAwAAAAdHZW5lcmFsBgQAAAAABgUAAAAQ
+        VHJlZV9HZW5lcmFsTm9kZQD/////CQQAAAD/////CQQAAAAAAAAABgcAAAAFTm9kZTEL
+</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameValueLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NetworkDetailsPanel_HelpButtonLabelPair.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NetworkDetailsPanel_CloseBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NetworkDetailsPanel_CloseBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 28</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameLbl.Parent" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 155</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameValueLbl.Parent" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqLbl.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel_ChannelFreqLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentValueLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedValueLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedValueLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_PacketsReceivedValueLbl</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdLbl.Parent" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedLbl.Parent" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentValueLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_PacketsSentValueLbl</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ConnectedAdvancedPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 0</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 200</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSILbl.Name" xml:space="preserve">
+    <value>AdvancedPanel_RSSILbl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSILbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_BytesSentLbl</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="ConnectedPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="NetworkDetailsPanel_Tree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_TreePanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSIValueLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 135</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedValueLbl.Parent" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationValueLbl.Name" xml:space="preserve">
+    <value>ConnectedPanel_DurationValueLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedValueLbl.Name" xml:space="preserve">
+    <value>SecurityPanel_EncryptedValueLbl</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationLbl.Text" xml:space="preserve">
+    <value>Base station ID:</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameValueLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_MainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqValueLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NetworkDetailsPanel_HeaderLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 6</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedLbl.Text" xml:space="preserve">
+    <value>Bytes received:</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 90</value>
+  </data>
+  <data name="AdvancedPanel_CINRValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HeaderLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SecurityPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationValueLbl.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel_BaseStationValueLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.2.4253.25748, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationValueLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentLbl.Text" xml:space="preserve">
+    <value>Bytes sent:</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="AdvancedPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 250</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqValueLbl.Parent" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+  <data name="GeneralPanel_SignalLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NetworkDetailsPanel_Tree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 99</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_PacketsReceivedLbl</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NetworkPanel_CloseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 0</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="NetworkDetailsPanel_HelpButtonLabelPair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="NetworkDetailsPanel_HelpButtonLabelPair.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedValueLbl.Name" xml:space="preserve">
+    <value>SecurityPanel_NetworkAuthenticatedValueLbl</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalValueLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_SignalValueLbl</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_SupportLbl</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_TreePanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesSentLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 135</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedValueLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel.Name" xml:space="preserve">
+    <value>ConnectedPanel</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_MainPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdValueLbl.Parent" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedLbl.Parent" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 155</value>
+  </data>
+  <data name="AdvancedPanel_RSSIValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AdvancedPanel_RSSIValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel.Name" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSILbl.Parent" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HeaderLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ConnectedPanel_DurationValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ConnectedPanel_DurationValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel.Name" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="GeneralPanel_SignalLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedValueLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AdvancedPanel_RSSILbl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedLbl.Text" xml:space="preserve">
+    <value>Packets received:</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSIValueLbl.Parent" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="ConnectedPanel_DurationLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_Tree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_Tree.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_TreePanel</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedLbl.Text" xml:space="preserve">
+    <value>Network authentication:</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedValueLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedValueLbl.Parent" xml:space="preserve">
+    <value>SecurityPanel</value>
+  </data>
+  <data name="ConnectedPanel_DurationValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationLbl.Parent" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+  <data name="ConnectedAdvancedPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 250</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="SecurityPanel_EncryptedLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GeneralPanel_PreferredValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="GeneralPanel_PreferredValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationValueLbl.Parent" xml:space="preserve">
+    <value>ConnectedPanel</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerLbl.Text" xml:space="preserve">
+    <value>Transmit power:</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportValueLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="GeneralPanel_SignalValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="GeneralPanel_PreferredLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="SecurityPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 250</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdValueLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRValueLbl.Parent" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="NetworkDetailsPanel_HelpButtonLabelPair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 6</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRValueLbl.Name" xml:space="preserve">
+    <value>AdvancedPanel_CINRValueLbl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentLbl.Text" xml:space="preserve">
+    <value>Packets sent:</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRValueLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredValueLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_PreferredValueLbl</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_EncryptedLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSILbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="GeneralPanel_PreferredLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SecurityPanel_EncryptedLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportValueLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_SupportValueLbl</value>
+  </data>
+  <data name="NetworkPanel_CloseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ConnectedAdvancedPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentValueLbl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="AdvancedPanel_CINRLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="AdvancedPanel_CINRLbl.Text" xml:space="preserve">
+    <value>CINR:</value>
+  </data>
+  <data name="AdvancedPanel_CINRLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="GeneralPanel_SignalValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="GeneralPanel_SignalValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="GeneralPanel_PreferredLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="GeneralPanel_PreferredLbl.Text" xml:space="preserve">
+    <value>Preferred network:</value>
+  </data>
+  <data name="GeneralPanel_PreferredLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;NetworkPanel_CloseBtn.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_CloseBtnBox</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentValueLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="AdvancedPanel_RSSIValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 90</value>
+  </data>
+  <data name="NetworkDetailsPanel_Tree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportValueLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HelpButtonLabelPair.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="GeneralPanel_SignalLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="GeneralPanel_SignalLbl.Text" xml:space="preserve">
+    <value>Signal:</value>
+  </data>
+  <data name="GeneralPanel_SignalLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="SecurityPanel_EncryptedValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressLbl.Name" xml:space="preserve">
+    <value>ConnectedPanel_IPAddressLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationLbl.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel_BaseStationLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_BaseStationLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AdvancedPanel_RSSILbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 90</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressLbl.Parent" xml:space="preserve">
+    <value>ConnectedPanel</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedLbl.Name" xml:space="preserve">
+    <value>SecurityPanel_NetworkAuthenticatedLbl</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_NetworkAuthenticatedLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GeneralPanel_SupportValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="GeneralPanel_SupportValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="GeneralPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsSentLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_PacketsSentLbl</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HelpButtonLabelPair.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GeneralPanel_PreferredLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 135</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameValueLbl.Name" xml:space="preserve">
+    <value>SecurityPanel_ActualDomainNameValueLbl</value>
+  </data>
+  <data name="ConnectedPanel_DurationLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="SecurityPanel_EncryptedValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="SecurityPanel_EncryptedValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="GeneralPanel_PreferredValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="SecurityPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 0</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;NetworkPanel_CloseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NetworkDetailsPanel_TreePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 250</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportLbl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdvancedPanel_RSSILbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="AdvancedPanel_RSSILbl.Text" xml:space="preserve">
+    <value>RSSI:</value>
+  </data>
+  <data name="AdvancedPanel_RSSILbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="AdvancedPanel_CINRLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 135</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_CloseBtnBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NetworkDetailsPanel_HeaderLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerLbl.Parent" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SupportLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HeaderLbl.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel_HeaderLbl</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HeaderLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_PacketsReceivedLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HelpButtonLabelPair.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomHelpButtonLabelPair, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_HelpButtonLabelPair.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel_HelpButtonLabelPair</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameValueLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_NetworkNameValueLbl</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameLbl.Text" xml:space="preserve">
+    <value>Network name:</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="NetworkDetailsPanel_TreePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="GeneralPanel_NetworkNameLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SecurityPanel_ActualDomainNameValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_BytesReceivedLbl</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="ConnectedPanel_DurationValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 90</value>
+  </data>
+  <data name="AdvancedPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationLbl.Name" xml:space="preserve">
+    <value>ConnectedPanel_DurationLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_DurationLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_CloseBtnBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NetworkDetailsPanel_MainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="GeneralPanel_SupportValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 220</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SecurityPanel_EncryptedValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 90</value>
+  </data>
+  <data name="StatisticsPanel_BytesSentValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedValueLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="StatisticsPanel_PacketsReceivedLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NetworkDetailsPanel_TreePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRLbl.Name" xml:space="preserve">
+    <value>AdvancedPanel_CINRLbl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_CINRLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_SignalLbl</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_Tree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_Tree.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel_Tree</value>
+  </data>
+  <data name="AdvancedPanel_CINRLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GeneralPanel_SupportLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="NetworkPanel_CloseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="NetworkPanel_CloseBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_TransmitPowerLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="StatisticsPanel_PacketsSentValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_TreePanel.Name" xml:space="preserve">
+    <value>NetworkDetailsPanel_TreePanel</value>
+  </data>
+  <data name="&gt;&gt;NetworkDetailsPanel_TreePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StatisticsPanel_BytesReceivedLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredValueLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_BaseStationValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 155</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_PreferredValueLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="SecurityPanel_EncryptedLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 70</value>
+  </data>
+  <data name="NetworkDetailsPanel_CloseBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 322</value>
+  </data>
+  <data name="GeneralPanel_SignalValueLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 90</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SecurityPanel_ActualDomainNameLbl.Name" xml:space="preserve">
+    <value>SecurityPanel_ActualDomainNameLbl</value>
+  </data>
+  <data name="NetworkPanel_CloseBtn.BtnText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerValueLbl.Name" xml:space="preserve">
+    <value>ConnectedAdvancedPanel_TransmitPowerValueLbl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel.Parent" xml:space="preserve">
+    <value>NetworkDetailsPanel_MainPanel</value>
+  </data>
+  <data name="ConnectedPanel_DurationLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="NetworkDetailsPanel_MainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 250</value>
+  </data>
+  <data name="ConnectedPanel_DurationLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="ConnectedPanel_DurationLbl.Text" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSIValueLbl.Name" xml:space="preserve">
+    <value>AdvancedPanel_RSSIValueLbl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_RSSIValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ConnectedPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 0</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerValueLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_SignalValueLbl.Parent" xml:space="preserve">
+    <value>GeneralPanel</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedValueLbl.Parent" xml:space="preserve">
+    <value>StatisticsPanel</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ConnectedPanel_IPAddressValueLbl.Name" xml:space="preserve">
+    <value>ConnectedPanel_IPAddressValueLbl</value>
+  </data>
+  <data name="GeneralPanel_SignalLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 70</value>
+  </data>
+  <data name="ConnectedAdvancedPanel_ChannelFreqLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdvancedPanel_NetworkIdLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_ChannelFreqLbl.Parent" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+  <data name="SecurityPanel_EncryptedLbl.Text" xml:space="preserve">
+    <value>Encryption:</value>
+  </data>
+  <data name="SecurityPanel_EncryptedLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 18</value>
+  </data>
+  <data name="SecurityPanel_EncryptedLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="SecurityPanel_NetworkAuthenticatedValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="StatisticsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 250</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameLbl.Name" xml:space="preserve">
+    <value>GeneralPanel_NetworkNameLbl</value>
+  </data>
+  <data name="&gt;&gt;GeneralPanel_NetworkNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StatisticsPanel_BytesReceivedValueLbl.Name" xml:space="preserve">
+    <value>StatisticsPanel_BytesReceivedValueLbl</value>
+  </data>
+  <data name="AdvancedPanel_CINRLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdValueLbl.Name" xml:space="preserve">
+    <value>AdvancedPanel_NetworkIdValueLbl</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel_NetworkIdValueLbl.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelRoundedCorners, WiMAXCU_UICustomControls, Version=6.1.3882.13620, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="AdvancedPanel_RSSIValueLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel.Name" xml:space="preserve">
+    <value>AdvancedPanel</value>
+  </data>
+  <data name="&gt;&gt;AdvancedPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressValueLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="ConnectedPanel_IPAddressValueLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ConnectedAdvancedPanel_TransmitPowerValueLbl.Parent" xml:space="preserve">
+    <value>ConnectedAdvancedPanel</value>
+  </data>
+</root>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APDO_INVALID_PROVISIONING" xml:space="preserve">
+    <value>Invalid provisioning data.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_EAP_AUTH_Device" xml:space="preserve">
+    <value>EAP authentication failed.</value>
+  </data>
+  <data name="APDO_PACKAGE_INSTALLATION_FILE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Could not find the WiMAX updates file: {0}.</value>
+  </data>
+  <data name="SDK_PERMISSON_DENIED" xml:space="preserve">
+    <value>This utility has lost its write permission with the SDK.</value>
+  </data>
+  <data name="SDK_BUFFER_SIZE_TOO_SMALL" xml:space="preserve">
+    <value>The buffer is too small.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_3_Way_Handshake" xml:space="preserve">
+    <value>3-way handshake failed.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_to_NW" xml:space="preserve">
+    <value>Network connection failed.</value>
+  </data>
+  <data name="SDK_FIRST_COMMON_ERROR" xml:space="preserve">
+    <value>This is the first common error.</value>
+  </data>
+  <data name="General_UnhandledException" xml:space="preserve">
+    <value>An unhandled exception occurred.</value>
+  </data>
+  <data name="SDK_ROAMING_NOT_ALLOWED" xml:space="preserve">
+    <value>Roaming not allowed.</value>
+  </data>
+  <data name="General_SetPreferredProfileFailed" xml:space="preserve">
+    <value>Unable to set the preferred network.</value>
+  </data>
+  <data name="SDK_ALREADY_CONNECTED" xml:space="preserve">
+    <value>Already connected.</value>
+  </data>
+  <data name="SDK_DEVICE_MISSING" xml:space="preserve">
+    <value>The adapter is missing.</value>
+  </data>
+  <data name="SDK_CONNECTION_IN_PROGRESS" xml:space="preserve">
+    <value>A connection is in progress</value>
+  </data>
+  <data name="General_DisconnectFailed" xml:space="preserve">
+    <value>Unable to disconnect from the network.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_datapath" xml:space="preserve">
+    <value>Datapath connection failed.</value>
+  </data>
+  <data name="BizTier_INVALID_NETWORK" xml:space="preserve">
+    <value>The specified network is not valid.</value>
+  </data>
+  <data name="General_StopDownloadFailed" xml:space="preserve">
+    <value>Unable to stop the download.</value>
+  </data>
+  <data name="APDO_BAD_AUTHENTICATION" xml:space="preserve">
+    <value>The authentication failed.</value>
+  </data>
+  <data name="OutOfMemory" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX Connection Utility must now close because your system is out of memory or low on resources.  Try closing other applications and then restart this utility.</value>
+  </data>
+  <data name="General_ConnectFailed" xml:space="preserve">
+    <value>Unable to connect to the network.</value>
+  </data>
+  <data name="ERROR_CODE" xml:space="preserve">
+    <value>The error code was {0}.</value>
+  </data>
+  <data name="APDO_INVALID_PACKAGE" xml:space="preserve">
+    <value>Invalid package.</value>
+  </data>
+  <data name="General_ResetWiMAXDeviceFailed" xml:space="preserve">
+    <value>Unable to reset the WiMAX adapter.</value>
+  </data>
+  <data name="UI_PROVISIONING_OPERATION_IN_PROGRESS" xml:space="preserve">
+    <value>A provisioning operation is currently in progress.</value>
+  </data>
+  <data name="BizTier_INVALID_RADIO_STATE" xml:space="preserve">
+    <value>An invalid radio state transition was detected.</value>
+  </data>
+  <data name="General_RestoreNetworkSettingsFailed" xml:space="preserve">
+    <value>Unable to restore the network settings.</value>
+  </data>
+  <data name="General_StopSearchFailed" xml:space="preserve">
+    <value>Unable to stop the search.</value>
+  </data>
+  <data name="General_ScanFailed" xml:space="preserve">
+    <value>Unable to search for networks.</value>
+  </data>
+  <data name="General_SetPackageUpdateStateFailed" xml:space="preserve">
+    <value>Unable to start downloading the WiMAX updates.</value>
+  </data>
+  <data name="SDK_LINK_NOT_CONNECTED" xml:space="preserve">
+    <value>Link not connected.</value>
+  </data>
+  <data name="General_StopConnectFailed" xml:space="preserve">
+    <value>Unable to stop the connect.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_EAP_AUTH_user" xml:space="preserve">
+    <value>EAP user authentication failed.</value>
+  </data>
+  <data name="APDO_GENERIC_FAILURE" xml:space="preserve">
+    <value>No details about the cause of the failure were provided.</value>
+  </data>
+  <data name="General_RadioOffFailed" xml:space="preserve">
+    <value>Unable to turn off WiMAX.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_SBC" xml:space="preserve">
+    <value>SBC failed.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_REG" xml:space="preserve">
+    <value>REG failed.</value>
+  </data>
+  <data name="SDK_Fail_to_connect_Ranging" xml:space="preserve">
+    <value>Ranging failed.</value>
+  </data>
+  <data name="General_RadioOnFailed" xml:space="preserve">
+    <value>Unable to turn on WiMAX.</value>
+  </data>
+  <data name="SDK_INVALID_PROFILE" xml:space="preserve">
+    <value>Invalid profile.</value>
+  </data>
+  <data name="SDK_INVALID_PARAMETER" xml:space="preserve">
+    <value>Invalid parameter.</value>
+  </data>
+  <data name="General_SaveChangesFailed" xml:space="preserve">
+    <value>Unable to save the changes.</value>
+  </data>
+  <data name="SDK_UNKNOWN_ERROR_CODE" xml:space="preserve">
+    <value>The application received an error code from the SDK that has not been mapped to an error message.</value>
+  </data>
+  <data name="General_WiFiRadioOnFailed" xml:space="preserve">
+    <value>Unable to turn on WiFi.</value>
+  </data>
+  <data name="SDK_INTEL_NO_RF" xml:space="preserve">
+    <value>WiMAX was unable to take control of the radio from WiFi.</value>
+  </data>
+  <data name="BizTier_NETWORK_NOT_CONNECTED" xml:space="preserve">
+    <value>The specified network is not connected.</value>
+  </data>
+  <data name="General_ErrorMessageWithClickHelp" xml:space="preserve">
+    <value>{0}  Click Help for more information.</value>
+  </data>
+  <data name="SP_UNHANDLED_EXCEPTION" xml:space="preserve">
+    <value>The service publisher encountered the following unhandled exception.
+
+{0}</value>
+  </data>
+  <data name="General_PackageInstallationFailed_NoCredentialsGiven" xml:space="preserve">
+    <value>Unable to install the WiMAX updates.  You did not provide the necessary credentials when prompted.</value>
+  </data>
+  <data name="BizTier_ONLY_ONE_CONNECTED_NETWORK_SUPPORTED" xml:space="preserve">
+    <value>This utility supports only one connected network.</value>
+  </data>
+  <data name="SDK_INVALID_DEVICE" xml:space="preserve">
+    <value>Invalid device.</value>
+  </data>
+  <data name="SDK_FAILED" xml:space="preserve">
+    <value>An unknown failure occurred.</value>
+  </data>
+  <data name="General_GetPackageInformationFailed" xml:space="preserve">
+    <value>Unable to install the WiMAX updates.  The package information could not be retrieved.</value>
+  </data>
+  <data name="General_ConnectFailedInManualScanMode" xml:space="preserve">
+    <value>{0}
+      
+The network that you are attempting to connect to may no longer be within range of this computer.  Please press the 'Search for Networks' button to refresh the networks list, and then try to connect again.</value>
+  </data>
+  <data name="General_PackageUpdateFailed" xml:space="preserve">
+    <value>Downloading of the WiMAX updates has been interrupted or stopped.</value>
+  </data>
+  <data name="SDK_NETWORK_PROHIBITED" xml:space="preserve">
+    <value>Network prohibited.</value>
+  </data>
+  <data name="General_UnknownOperation" xml:space="preserve">
+    <value>The operation failed.</value>
+  </data>
+  <data name="General_WiFiStillHasRadio" xml:space="preserve">
+    <value>{0}  WiMAX failed to take control of the radio from WiFi.
+    
+Please try again.</value>
+  </data>
+  <data name="APDO_NETWORK_DISCONNECTED" xml:space="preserve">
+    <value>The network was disconnected.</value>
+  </data>
+  <data name="SDK_LAST_COMMON_ERROR" xml:space="preserve">
+    <value>This is the last common error.</value>
+  </data>
+  <data name="General_PackageInstallationFailed" xml:space="preserve">
+    <value>Unable to install the WiMAX updates.  The install file could not be found.</value>
+  </data>
+  <data name="General_WiFiRadioOffFailed" xml:space="preserve">
+    <value>Unable to turn off WiFi.</value>
+  </data>
+</root>

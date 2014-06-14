@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FUMOProgressPanel_ButtonBarSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 14</value>
+  </data>
+  <data name="FUMOProgressPanel_ButtonBarSeperator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 153</value>
+  </data>
+  <data name="FUMOProgressPanel_HelpButtonLabelPair.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FUMOProgressPanel_HelpButtonLabelPair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HelpButtonLabelPair.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadProgressLbl.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_DownloadProgressLbl</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadProgressLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadProgressLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadProgressLbl.Text" xml:space="preserve">
+    <value>Download progress:</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadProgressLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 14</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FUMOProgressPanel_DownloadProgressLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadBeingStoppedLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 131</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 257</value>
+  </data>
+  <data name="FUMOProgressPanel_ProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 131</value>
+  </data>
+  <data name="FUMOProgressPanel_HeaderLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FUMOProgressPanel_ProgressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtn.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_StopDownloadBtn</value>
+  </data>
+  <data name="FUMOProgressPanel_HeaderLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 28</value>
+  </data>
+  <data name="FUMOProgressPanel_HeaderLbl.Text" xml:space="preserve">
+    <value>WiMAX Updates</value>
+  </data>
+  <data name="FUMOProgressPanel_HeaderLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HelpButtonLabelPair.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_InstructionsLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtnBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_InstructionsLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HeaderLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HeaderLbl.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_HeaderLbl</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadBeingStoppedLbl.Text" xml:space="preserve">
+    <value>The download is being stopped...</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadBeingStoppedLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 46</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="FUMOProgressPanel_HeaderLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 6</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadProgressLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 112</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtnBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ProgressBar.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_ProgressBar</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ProgressBar.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomProgressBar, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ProgressBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtn.Parent" xml:space="preserve">
+    <value>FUMOProgressPanel_StopDownloadBtnBox</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ProgressBar.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ButtonBarSeperator.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelSeparator, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ButtonBarSeperator.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_ButtonBarSeperator</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadBeingStoppedLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadBeingStoppedLbl.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_DownloadBeingStoppedLbl</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HelpButtonLabelPair.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_HelpButtonLabelPair</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HelpButtonLabelPair.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomHelpButtonLabelPair, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtn.BtnText" xml:space="preserve">
+    <value>Stop Download</value>
+  </data>
+  <data name="FUMOProgressPanel_ProgressBar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FUMOProgressPanel_ProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 19</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 24</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtn.Parent" xml:space="preserve">
+    <value>FUMOProgressPanel_CloseBtnBox</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="FUMOProgressPanel_ButtonBarSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 217</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadProgressLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadBeingStoppedLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtnBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FUMOProgressPanel_ButtonBarSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 228</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HeaderLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtnBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_HeaderLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FUMOProgressPanel_HelpButtonLabelPair.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadProgressLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_InstructionsLbl.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_InstructionsLbl</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_InstructionsLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FUMOProgressPanel_InstructionsLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadProgressLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FUMOProgressPanel_InstructionsLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadBeingStoppedLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_DownloadProgressLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FUMOProgressPanel_InstructionsLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 32</value>
+  </data>
+  <data name="FUMOProgressPanel_InstructionsLbl.Text" xml:space="preserve">
+    <value>WiMAX updates are being downloaded.  After the download is complete, installation will begin.</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ButtonBarSeperator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="FUMOProgressPanel_HeaderLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtnBox.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_StopDownloadBtnBox</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_StopDownloadBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="FUMOProgressPanel_HelpButtonLabelPair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FUMOProgressPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtnBox.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_CloseBtnBox</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_ButtonBarSeperator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 0</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtn.Name" xml:space="preserve">
+    <value>FUMOProgressPanel_CloseBtn</value>
+  </data>
+  <data name="&gt;&gt;FUMOProgressPanel_CloseBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=2.3.3721.21395, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="FUMOProgressPanel_DownloadBeingStoppedLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="FUMOProgressPanel_ProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="FUMOProgressPanel_StopDownloadBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 0</value>
+  </data>
+  <data name="FUMOProgressPanel_CloseBtn.BtnText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+</root>

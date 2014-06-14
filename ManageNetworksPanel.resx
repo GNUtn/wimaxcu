@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ManageNetworksPanel_HelpButtonLabelPair.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtnBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ManageNetworksPanel_HeaderLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 53</value>
+  </data>
+  <data name="ManageNetworksPanel_HeaderLbl.Text" xml:space="preserve">
+    <value>Manage Networks</value>
+  </data>
+  <data name="ManageNetworksPanel_HeaderLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 365</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtnBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ManageNetworksPanel_ProfileListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 202</value>
+  </data>
+  <data name="ManageNetworksPanel_ProfileListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ButtonBarSeperator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_PropertiesBtn.Parent" xml:space="preserve">
+    <value>ManageNetworksPanel_SetAsPreferredPropertiesBtnBox</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HeaderLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtnBox.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_CloseBtnBox</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtn.Parent" xml:space="preserve">
+    <value>ManageNetworksPanel_CloseBtnBox</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_PropertiesBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_PropertiesBtn.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_PropertiesBtn</value>
+  </data>
+  <data name="ManageNetworksPanel_HeaderLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 6</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ManageNetworksPanel_CloseBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_PropertiesBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HeaderLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ButtonBarSeperator.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredBtn.Parent" xml:space="preserve">
+    <value>ManageNetworksPanel_SetAsPreferredPropertiesBtnBox</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 271</value>
+  </data>
+  <data name="ManageNetworksPanel_PropertiesBtn.BtnText" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 28</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ManageNetworksPanel_HeaderLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredBtn.BtnText" xml:space="preserve">
+    <value>Set As Preferred</value>
+  </data>
+  <data name="ManageNetworksPanel_HelpButtonLabelPair.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ManageNetworksPanel_HelpButtonLabelPair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="ManageNetworksPanel_ProfileListBox.AccessibleName" xml:space="preserve">
+    <value>ProfileListBox</value>
+  </data>
+  <data name="ManageNetworksPanel_ProfileListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtn.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_CloseBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_CloseBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ManageNetworksPanel_HelpButtonLabelPair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 6</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 28</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ManageNetworksPanel_ButtonBarSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ManageNetworksPanel_PropertiesBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 28</value>
+  </data>
+  <data name="ManageNetworksPanel_PropertiesBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ManageNetworksPanel_HeaderLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 338</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 0</value>
+  </data>
+  <data name="ManageNetworksPanel_PropertiesBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 28</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_SetAsPreferredPropertiesBtnBox</value>
+  </data>
+  <data name="ManageNetworksPanel_ProfileListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 64</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HelpButtonLabelPair.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_HelpButtonLabelPair</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HelpButtonLabelPair.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomHelpButtonLabelPair, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ManageNetworksPanel_ButtonBarSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 14</value>
+  </data>
+  <data name="ManageNetworksPanel_ButtonBarSeperator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HeaderLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HeaderLbl.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_HeaderLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ButtonBarSeperator.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelSeparator, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ButtonBarSeperator.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_ButtonBarSeperator</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ProfileListBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.Dashboard.ProfileListBox, WiMAXCU, Version=6.1.3820.14426, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ProfileListBox.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_ProfileListBox</value>
+  </data>
+  <data name="ManageNetworksPanel_HelpButtonLabelPair.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ManageNetworksPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredPropertiesBtnBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ManageNetworksPanel_ButtonBarSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 330</value>
+  </data>
+  <data name="ManageNetworksPanel_SetAsPreferredBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ManageNetworksPanel_PropertiesBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 0</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ProfileListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtn.BtnText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ManageNetworksPanel_CloseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_ProfileListBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredBtn.Name" xml:space="preserve">
+    <value>ManageNetworksPanel_SetAsPreferredBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_SetAsPreferredBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=6.1.3820.14419, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ManageNetworksPanel_HelpButtonLabelPair.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+</root>

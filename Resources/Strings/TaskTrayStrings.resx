@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TaskTray_Tooltip_NoNetworksAvailable" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+No WiMAX networks are available to connect.</value>
+  </data>
+  <data name="TaskTray_Tooltip_ConnectedToXNetworks" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Connected to {0} networks.</value>
+  </data>
+  <data name="TaskTray_Prompt_PreferredProfileAvailable" xml:space="preserve">
+    <value>{0} is available to connect.
+    
+Click this message to connect.</value>
+  </data>
+  <data name="TaskTray_Tooltip_ConnectingToNetworkEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Connecting to network...</value>
+  </data>
+  <data name="TaskTray_Tooltip_ConnectingToXEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Connecting to {0}...</value>
+  </data>
+  <data name="TaskTray_Tooltip_TurningWiMAXRadioOn" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Turning WiMAX on...</value>
+  </data>
+  <data name="TaskTray_Tooltip_WaitingForWiMAX" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Initializing WiMAX...</value>
+  </data>
+  <data name="TaskTray_Tooltip_SearchingForXEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Searching for {0}...</value>
+  </data>
+  <data name="TaskTray_Tooltip_TurningWiMAXRadioOff" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Turning WiMAX off...</value>
+  </data>
+  <data name="TaskTray_Tooltip_PreferredProfileNotAvailable" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+{0} is not available to connect.</value>
+  </data>
+  <data name="TaskTray_Tooltip_SearchingForNetworksPercentCompleteEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Searching for WiMAX networks...
+{0}% complete</value>
+  </data>
+  <data name="TaskTray_Prompt_AvailableNetworks" xml:space="preserve">
+    <value>One or more WiMAX networks are within range of this computer.
+
+Click this message to see the list of networks and connect.</value>
+  </data>
+  <data name="TaskTray_Menu_SearchingForWiMAXNetworks" xml:space="preserve">
+    <value>Searching for WiMAX networks.</value>
+  </data>
+  <data name="TaskTray_Menu_WiMAXRadioOn" xml:space="preserve">
+    <value>WiMAX On</value>
+  </data>
+  <data name="TaskTray_Tooltip_DisconnectingFromXEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Disconnecting from {0}...</value>
+  </data>
+  <data name="TaskTray_Tooltip_NotPrimaryCU" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Another application is currently managing WiMAX connections.</value>
+  </data>
+  <data name="TaskTray_Tooltip_StoppingTheConnect" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Stopping the connect...</value>
+  </data>
+  <data name="TaskTray_Menu_WiMAXRadioOff" xml:space="preserve">
+    <value>WiMAX Off</value>
+  </data>
+  <data name="TaskTray_Menu_NoAvailableNetworks" xml:space="preserve">
+    <value>No WiMAX networks are available.</value>
+  </data>
+  <data name="TaskTray_Menu_ConnectTo" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="TaskTray_Tooltip_XAvailableNetworks" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+{0} WiMAX networks are available to connect.</value>
+  </data>
+  <data name="TaskTray_Menu_SearchingForX" xml:space="preserve">
+    <value>Searching for {0}.</value>
+  </data>
+  <data name="TaskTray_Tooltip_DisconnectingFromNetworkEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Disconnecting from network...</value>
+  </data>
+  <data name="TaskTray_Menu_AllRadiosOff" xml:space="preserve">
+    <value>WiMAX and WiFi Off</value>
+  </data>
+  <data name="TaskTray_Menu_OpenWiMAXUtility" xml:space="preserve">
+    <value>Configure WiMAX</value>
+  </data>
+  <data name="TaskTray_Menu_WiFiRadioOn" xml:space="preserve">
+    <value>WiFi On</value>
+  </data>
+  <data name="TaskTray_Menu_Disconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="TaskTray_Tooltip_ReconnectingToXEllipse" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Reconnecting to {0}...</value>
+  </data>
+  <data name="TaskTray_Tooltip_HWRadioOff" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+The hardware radio switch is off.</value>
+  </data>
+  <data name="TaskTray_Menu_XIsNotAvailable" xml:space="preserve">
+    <value>{0} is not available.</value>
+  </data>
+  <data name="TaskTray_Prompt_ComputerIsEnabledForWiMAX" xml:space="preserve">
+    <value>This computer supports WiMAX wireless
+broadband communications.  {0}
+to learn more.</value>
+  </data>
+  <data name="TaskTray_Tooltip_StoppingTheSearch" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Stopping the search...</value>
+  </data>
+  <data name="TaskTray_Tooltip_InitializingApplication" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+Initializing the application...</value>
+  </data>
+  <data name="TaskTray_Tooltip_AnErrorOccurred" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+WiMAX is not ready.</value>
+  </data>
+  <data name="TaskTray_Tooltip_AllRadiosOff" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+WiMAX is off.</value>
+  </data>
+  <data name="TaskTray_Menu_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="TaskTray_Tooltip_XIsAvailable" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX
+{0} is available to connect.</value>
+  </data>
+  <data name="TaskTray_Tooltip_WiMAXCU" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX</value>
+  </data>
+  <data name="TaskTray_Prompt_FormattedClickMessage" xml:space="preserve">
+    <value>{0}
+
+Click this message for more information.</value>
+  </data>
+  <data name="TaskTray_Menu_WiFiRadioOff" xml:space="preserve">
+    <value>WiFi Off</value>
+  </data>
+</root>

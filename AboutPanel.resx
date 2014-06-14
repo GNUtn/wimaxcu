@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;AboutPanel_DevicescapeCopyrightLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AboutPanel_ComponentVersionGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 172</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtn.Name" xml:space="preserve">
+    <value>AboutPanel_CloseBtn</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=2.4.3782.24467, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_IntelCopyrightLbl.Parent" xml:space="preserve">
+    <value>AboutPanel_CopyrightPanel</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CopyrightPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CopyrightPanel.Name" xml:space="preserve">
+    <value>AboutPanel_CopyrightPanel</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_IntelCopyrightLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_SeparatorAndButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_SeparatorAndButtonPanel.Name" xml:space="preserve">
+    <value>AboutPanel_SeparatorAndButtonPanel</value>
+  </data>
+  <data name="AboutPanel_IntelCopyrightLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 31</value>
+  </data>
+  <data name="AboutPanel_IntelCopyrightLbl.Text" xml:space="preserve">
+    <value>Copyright &lt;0&gt; &lt;1&gt; Intel Corporation. All rights reserved.</value>
+  </data>
+  <data name="AboutPanel_IntelCopyrightLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AboutPanel_CheckForUpgradeLinkLabel.Text" xml:space="preserve">
+    <value>How do I check if an upgrade is available?</value>
+  </data>
+  <data name="AboutPanel_CheckForUpgradeLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 19</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 425</value>
+  </data>
+  <data name="AboutPanel_AppLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtn.Parent" xml:space="preserve">
+    <value>AboutPanel_CloseBtnBox</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AboutPanel_DevicescapeCopyrightLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_AppLogo.Name" xml:space="preserve">
+    <value>AboutPanel_AppLogo</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_AppLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AboutPanel_SeparatorAndButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 39</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_SeparatorAndButtonPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AboutPanel_CloseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 0</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_SeparatorAndButtonPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AboutPanel_ComponentVersionGridView.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtnBox.Parent" xml:space="preserve">
+    <value>AboutPanel_SeparatorAndButtonPanel</value>
+  </data>
+  <data name="AboutPanel_AppLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtnBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ButtonBarSeperator.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelSeparator, WiMAXCU_UICustomControls, Version=2.4.3782.24467, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ButtonBarSeperator.Name" xml:space="preserve">
+    <value>AboutPanel_ButtonBarSeperator</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_HeaderLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_HeaderLbl.Name" xml:space="preserve">
+    <value>AboutPanel_HeaderLbl</value>
+  </data>
+  <data name="AboutPanel_HeaderLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AboutPanel_CloseBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="AboutPanel_CloseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="AboutPanel_ButtonBarSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AboutPanel_AppLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AboutPanel_CloseBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 28</value>
+  </data>
+  <data name="AboutPanel_CloseBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AboutPanel_IntelCopyrightLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AboutPanel_CloseBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 9</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_AppLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AboutPanel_CheckForUpgradeLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AboutPanel_AppLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="AboutPanel_CopyrightPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AboutPanel_HeaderLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 65</value>
+  </data>
+  <data name="AboutPanel_HeaderLbl.Text" xml:space="preserve">
+    <value>About Intel® PROSet/Wireless WiMAX Software X.X.X.X</value>
+  </data>
+  <data name="AboutPanel_HeaderLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt, style=Bold</value>
+  </data>
+  <data name="AboutPanel_AppLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02GwAAAAAAADYAAAAoAAAAMAAAADAAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////8e3p2tLJzLuqvaiSr5uGvaiSzLuq2tLJ+PPu////
+        ////////////////5OLZsrKylpucfX94Y2FZTk5MTk5MTk5MY2FZfX94lpucsrKy5OLZ+PPur5uGh3Re
+        l4h45+jk////////////////////////////////////////////////////////////2tLJvaiSr5uG
+        r5uGr5uGr5uGr5uGr5uGr5uGvaiS2tLJ////5+jksrKyfX94Tk5MTk5MTk5MTk5MTk5MTk5MTk5MTk5M
+        Tk5MTk5MTk5MTk5MTk5MY2FZblIzfImLZa3VZa3VyeDt////////////////////////////////////
+        ////////////////2tLJr5uGvaiS2tLJ8e3p9/n5////9/n58e3p2tLJvaiSl4h4l4h4fX94Y3V4Tk5M
+        bFpEiGdEn3A+t3w7wH00zIU4zIU4wH00t3w7rXIylmk4h2E4bFpEUUY0Y2FZlNj/ZcL4TrXyRqrk9/n5
+        ////////////////////////////////////////////2tLJr5uG2sSt5vPmp+6ygueRlOuip+6yvvLG
+        vvLGp+6y5OLZr5uGUUY0blIzknxlx5Rc1I1B2ptW1qFp1qFp0aR02bCF2bCF0aR00aR0ypxqxIxQuYNJ
+        t3w7dEsffX94lNj/Y7vuUbTuRqrk9/n5////////////////////////////////////////8e3pvaiS
+        2tLJvvLGbON/gueRbON/gueRp+6yp+6yvvLGyuvPvvLGvvLGvaiSmmUr15VO2bCF2bCF2bCF2bCF2bCF
+        2bCF2bCF0aR00aR0wp950aR0ypxqypxqwZVmhFotfX94lNj/Y7vuUbTuQqDVlpuc5+jk////////////
+        ////////////////////////2tLJ2sStvvLGW99vQdVZT9llT9llbON/lOuilOuilOuilOuip+6yp+6y
+        vvLGvaiSx5Rc2bCF37yW37yW37yW37yW2sSt2sSt2sStzLuq37yW2bCFvaiSwp95wZVmh2E4fX94lNj/
+        Y7vuUbTuQqDVTk5MfImL5OLZ////////////////////////////////2sSt5OLZW99vQdVZQdVZbON/
+        T9llQdVZbON/W99vbON/gueRlOuiW99vlOui593Mwp9537yW2sSt2sSt37yW2bCF2bCF0aR00aR00aR0
+        wp95wp95wp95vaiSwp95iGdEfX94lNj/Y7vuUbTuQqDVd1s8Tk5MfX945OLZ////////////////////
+        ////////2tLJp+6yW99vT9llE8owL81IE8owL81IT9llQdVZQdVZQdVZW99vW99vT9llp+6yzLuq37yW
+        2bCF2bCF0aR00aR00aR00aR00aR0ypxqypxqwZVmwZVmvI9fs4xhh2E4fX94lNj/Y7vuUbTuQqDVh2E4
+        fFQqTk5Ml4h45+jk////////////////////////5OLZbON/gueRE8owE8owL81IE8owL81IT9llQdVZ
+        L81IL81IQdVZE8owQdVZlOui2tLJ0aR02bCF2bCF0aR00aR00aR0ypxqypxqypxqwZVmwZVmvI9fs4xh
+        tYhXhFotfX94lNj/Y7vuUbTuQqDViGdEhFotfFQqTk5Mlpuc////////////////////////+PPuT9ll
+        QdVZE8owE8owaMt3QdVZL81IL81IE8owL81IT9llT9llE8owL81IcdOB8e3p1qFp0aR02bCF0aR0ypxq
+        ypxqypxqwZVmwZVmwZVmvI9fs4xhtYhXtYhXhFotfX94lNj/Y7vuUbTuQKLakG1IjWAvflIifFQqTk5M
+        srKy////////////////////////L81IDrInaMt3L81IL81IDrInDrInL81IDrInDrInQdVZDrInQdVZ
+        QdVZL81I////1qFp1qFp2bCFypxqtYhXnXRIqHlFwZVmvI9fvI9ftYhXtYhXpoJbroBNfFQqfX94lNj/
+        Y7vuUbTuQqDVh3Reh2E4hFotflIiblIzY3V45OLZ////////////////9/n5aMt3aMt3aMt3DrInDrIn
+        NLFHDrInNLFHDrInDrInNLFHDrInNLFHSbxbaMt3+PPu1qFp1qFp2bCFypxqlmk4h2E4h2E4vI9fvI9f
+        tYhXroBNh2E4h2E4qHlFfFQqfX94lNj/Y7vuUbTuQqDVh25SkG1IhFotflIidEsfZUwvlpuc////////
+        ////////9/n5cdOByuvPaMt3aMt3DrInSbxbSbxbSbxbNLFHZbhyDrInNLFHNLFHSbxbnNKl593Mypxq
+        ypxq0aR0xIxQr5uG593MzLuqtYhXtYhXtYhXn3A+hFothFotlmk4flIifX94lNj/Y7vuUbTuQqDVh2E4
+        iGdEiGdEfFQqdEsfdEsfY2FZ5OLZ////////////////nNKlrNmzyuvPnNKlrNmzjcaWer+EZbhyNLFH
+        ZbhyXLNqNLFHNLFHXLNqrNmz2sStx5Rcypxq0aR0roBN////////////tYhXtYhXroBNpoJb8e3p5OLZ
+        m3lVflIifX94lNj/Y7vuUbTuQqDVd1s8hFoth2E4hFotdEsfZkEbZ0gmsrKy////////////////5vPm
+        er+EnNKlyuvPv9/ErNmznNKlnNKljcaWer+EZbhyer+ENLFHer+E593M0aR0x5Rc0aR0wZVmpoJb////
+        ////////roBNroBNroBNvaiS////////zLuqdEsffX94lNj/Y7vuUbTuQqDVd1s8fFQqfFQqh2E4dEsf
+        ZkEbZkEbh3Re////////////////////v9/Eer+EjcaW5+jkv9/Ev9/EyuvPv9/EjcaWer+EXLNqZbhy
+        v9/E37yWxIxQx5RcypxqqHlFvaiS////////593MroBNqHlFqHlF2sSt////////vaiSdEsffX94lNj/
+        Y7vuUbTuQqDVd1s8fFQqflIifFQqfFQqZkEbZkEbZ0gm2tLJ////////////////////v9/EjcaWer+E
+        v9/Ev9/ErNmzrNmznNKler+EjcaWv9/E2sStxIxQxIxQypxqtYhXjWAv8e3p////////37yWqHlFqHlF
+        lmk45OLZ////////sJBudEsffX94lNj/Y7vuUbTuQqDVblIzflIidEsfdEsffFQqZkEbZkEbZkEbsrKy
+        ////////////////////zLuq593MrNmzjcaWZbhyXLNqZbhyjcaWrNmz593M37yWxIxQxIxQx5RctYhX
+        jWAvvaiS////////////roBNqHlFn3A+lmk4////////////kG1IdEsffX94lNj/Y7vuUbTuQqDVblIz
+        dEsfdEsfdEsfdEsfZ0gmZkEbXDgSknxl////////////////////poJb4aJf37yW593M+PPu////+PPu
+        593M37yWypxqxYdFxYdFx5RctYhXjWAvm3lV+PPu////////2sStn3A+n3A+lmk4rZR4////////8e3p
+        jWAvZkEbfX94lNj/Y7vuUbTuQqDVblIzdEsfdEsfZkEbZkEbZ0gmZkEbXDgSbFpE////////////////
+        ////tYhX1I1B1I1B15VO1I1B1I1B1I1BxYdFxYdFxYdFxIxQtYhXn3A+hFotm3lV+PPu////////+PPu
+        qHlFn3A+n3A+hFot2sSt////////zLuqhFotZkEbfX94lNj/Y7vuUbTuQqDVZUwvdEsfZkEbZkEbZkEb
+        ZkEbXDgSXDgSZ0gm////////////////////ypxq4aJf2ptW15VO1I1B1I1B1I1BxIxQxIxQqHlFlmk4
+        jWAvhFotsJBu+PPu////////////wZVmn3A+lmk4jWAviGdE////////////m3lVhFotZkEbfX94lNj/
+        Y7vuUbTuQqDVZUwvZkEbZkEbZkEbZkEbZkEbXDgSXDgSZkEb////////////////////xYdF15VO2ptW
+        1qFp1qFp0aR01qFpypxqqHlFjWAvhFotpoJb2tLJ////////////////wp95n3A+lmk4jWAvflIi2tLJ
+        ////////2tLJhFotfFQqZkEbfX94lNj/Y7vuUbTuQqDVZ0gmZkEbZkEbZkEbXDgSXDgSXDgSXDgSXDgS
+        ////////////////////zIU4zIU4zIU4zIU4zIU4zIU4wH00wH00t3w72sSt8e3p////////////////
+        +PPuwp95lmk4lmk4mmUrflIipIZm////////////poJbfFQqflIiXDgSfX94lNj/Y7vuUbTuQqDVZ0gm
+        ZkEbZkEbXDgSXDgSXDgSXDgSXDgSXDgS////////////////////zIU4zIU4zIU4zIU4zIU4xYdFxYdF
+        xYdF2sSt////////////////////593MroBNmmUrmmUrjWAvdEsfkG1I+PPu////////2tLJflIiflIi
+        dEsfXDgSfX94lNj/Y7vuUbTuQqDVZUwvZkEbZkEbZkEbXDgSXDgSXDgSXDgSXDgS////////////////
+        ////zIU4zIU4zIU4zIU4xYdFxIxQxIxQxIxQ2bCF////////////2tLJwp95qHlFn3A+n3A+jWAvflIi
+        hFot5OLZ////////+PPukG1IfFQqfFQqfFQqZkEbfX94lNj/Y7vuUbTuQqDVZUwvZ0gmZ0gmZkEbZkEb
+        XDgSXDgSXDgSXDgS////////////////////xYdFzIU4wH00xYdFxIxQxYdFxYdFuYNJuYNJwZVmwp95
+        qHlFqHlFqHlFn3A+lmk4hFotflIikG1I5+jk////////////rZR4hFothFothFotfFQqXDgSfX94h9L9
+        Y7vuUbTuQqDVZUwvZkEbZkEbZkEbZkEbZkEbXDgSXDgSXDgS////////////////////xIxQwH00wH00
+        xYdFxIxQuYNJuYNJuYNJuYNJqHlFqHlFqHlFn3A+lmk4hFotflIiflIirZR4+PPu////////////r5uG
+        hFothFotfFQqfFQqZkEbZkEblpucfMfyY7vuUbTuRqrkTH6UZ0gmZkEbZkEbZkEbZkEbXDgSXDgSZ0gm
+        ////////////////////0aR0wH00wH00xYdFxIxQuYNJuYNJuYNJqHlFlmk4jWAvhFotfFQqfFQqflIi
+        m3lV2tLJ////////////////r5uGhFothFotfFQqfFQqZkEbZkEbfImLk9H1dMHuY7vuUbTuUbTuRqrk
+        UGx0ZkEbZkEbZkEbZkEbXDgSXDgSd1s8////////////////////2sStwH00wH00t3w7xIxQuYNJuYNJ
+        roBNlmk4hFotfFQqfFQqiGdErZR42tLJ////////////////+PPupIZmh2E4hFothFotfFQqZkEbZkEb
+        fImLlNj/fMfybcDwWrjuTbLsTbLsUbTuRqrkUGx0ZkEbZkEbXDgSXDgSXDgSl4h4////////////////
+        ////593MwH00rXIyt3w7xIxQtYhXuYNJroBNnXRI2sSt2tLJ8e3p////////////////////////2tLJ
+        kG1Ih2E4h2E4hFothFotZ0gmXDgSfImLlNj/fMfydMHuY7vuUbTuTbLsTbLsTbLsUbTuRqrkTWNmZkEb
+        ZkEbXDgSXDgSzLuq////////////////////////x5RcrXIyrXIytYhXtYhXtYhXroBN2tLJ////////
+        ////////////////////593MsJBuiGdEiGdEh2E4h2E4h2E4Z0gmXDgSY3V4lNj/fMfydMHuY7vuUbTu
+        TbLsTbLsTbLsUbTuTbLsUbTuRqrkTWNmXDgSXDgSZ0gm////////////////////////////37yWrXIy
+        rXIyt3w7s4xhtYhXtYhX2sSt////////////////5+jkzLuqpIZmkG1IkG1IiGdEiGdEiGdEh2E4Z0gm
+        XDgSY3V4h9L9fMfydMHuY7vuTbLsTbLsTbLsUbTuRqrkQKLaTrXyTbLsUbTuRqrkTk5MXDgSknxl////
+        ////////////////////////5OLZqHlFrXIyrXIys4xhs4xhs4xhpoJbwp95r5uGwp95m3lVm3lVm3lV
+        nXRIkG1IkG1IkG1IiGdEiGdEZ0gmZkEbY3V4h9L9fMfydMHuZcL4QpfFTH6UTrXyTbLsTbLsQqDVY2FZ
+        QqDVTrXyTbLsUbTuRqrkTk5M2sSt////////////////////////////////2bCFmmUrmmUrroBNsJBu
+        s4xhs4xhpIZmpoJbpoJbpoJbm3lVm3lVm3lVm3lVh25SkG1IkG1IblIzXDgSY3V4lNj/iMvyiMvyiMvy
+        Za3VUUY0TWNmZcL4Y7vuWrjuRqrkblIzZUwvRqrkTrXyTbLsUbTuQKLayeDt////////////////////
+        ////////////5OLZroBNmmUrmmUrsJBusJBusJBusJBupIZmpIZmpIZmpIZmpoJbm3lVm3lVm3lVm3lV
+        blIzXDgSY3V4h9L9iMvyiMvyk9H1Za3VbFpEZ0gmUGx0h9L9iMvyiMvyZa3VbFpEblIzY2FZTbLsUbTu
+        TbLsUbTuRqrkyeDt////////////////////////////////zLuqmmUrmmUrqHlFwp95rZR4rZR4sJBu
+        pI10pI10pIZmpIZmpIZmknxlknxld1s8ZkEbUGx0h9L9fMfyiMvyk9H1Za3VbFpEiGdEZ0gmUGx0h9L9
+        k9H1k9H1fbvcbFpEd1s8blIzUUY0TbLsWrjuTbLsTrXyRqrkyeDt////////////////////////////
+        ////wp95mmUrhFotpIZmvaiSr5uGrZR4rZR4rZR4pI10pI10pI10pIZmd1s8ZkEbUGx0h9L9fMfyfMfy
+        iMvybcDwh3Reh25Sh25SZ0gmUGx0lNj/k9H1k9H1dMHubFpEbFpEXDgSXDgSTWNmWrjubcDwWrjuUbTu
+        Rqrkz+r6////////////////////////////5+jks4xhflIihFotrZR4vaiSr5uGr5uGr5uGrZR4rZR4
+        pI10iGdEZkEbY3V4h9L9fMfyfMfyk9H1dMHufX94h3Reh3Reh25SblIzUGx0qNr3qNr3qNr3jcDcZ0gm
+        XDgSXDgSTk5MUGx0QpfFbcDwdMHuY7vuWrjuWrju////////////////////////////////593MpoJb
+        flIihFotrZR4vaiSvaiSr5uGr5uGr5uGiGdEZ0gmY3V4h9L9fMfyfMfyh9L9fbvcfX94h3ReiGdEd1s8
+        blIzZkEbTWNmuOL6uOL6uOL6l8rmTH6UYpu5Za3VY7vufMfyfMfyfMfydMHubcDwY7vuY7vu////////
+        ////////////////////////////593MpoJbdEsfflIipIZmvaiSvaiSr5uGh25SZ0gmY3V4h9L9fMfy
+        fMfyk9H1fbvcbFpEZUwvZ0gmUUY0Tk5MTWNmUGx0Ypu5uOL6uOL6uOL6uOL6uOL6uOL6qNr3qNr3k9H1
+        k9H1iMvyfMfydMHubcDwWrju////////////////////////////////////////5OLZsJBudEsfdEsf
+        kG1Ir5uGh3ReZ0gmY3V4fMfyfMfyfMfyiMvydMHuTH6UUGx0TH6UYpu5Za3ViMvyqNr3uOL6z+r6z+r6
+        z+r6z+r6uOL6uOL6uOL6uOL6qNr3qNr3k9H1fMfybcDwbcDwbcDwk9H1////////////////////////
+        ////////////////////////vaiSh2E4ZkEbZkEbZkEbY3V4fMfybcDwdMHufMfyiMvyfMfyfMfylNj/
+        uOL6uOL6z+r6z+r6z+r63vH73vH73vH73vH73vH7z+r6uOL6qNr3iMvyfMfyk9H1qNr3uOL6z+r69/n5
+        ////////////////////////////////////////////////////////////593MpI10XDgSTWNmfMfy
+        bcDwbcDwfMfyiMvyk9H1k9H1qNr3qNr3uOL6z+r6z+r63vH73vH7z+r6uOL6qNr3jcDcfbvck9H1uOL6
+        z+r63vH7////////////////////////////////////////////////////////////////////////
+        ////////////////////knxlZa3VZcL4Y7vudMHufMfyiMvyk9H1qNr3qNr3uOL6qNr3qNr3fbvcYpu5
+        TH6UTH6UfImL2tLJ9/n5////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////8e3pfbvcfMfydMHufMfyfMfyfMfy
+        fbvcZa3VTH6UUGx0TWNmY2FZh25SpI10zLuq////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9/n5fMfydMHuk9H1uOL6z+r63vH7////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////
+</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=2.4.3782.24467, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CloseBtnBox.Name" xml:space="preserve">
+    <value>AboutPanel_CloseBtnBox</value>
+  </data>
+  <data name="AboutPanel_IntelCopyrightLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_IntelCopyrightLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_IntelCopyrightLbl.Name" xml:space="preserve">
+    <value>AboutPanel_IntelCopyrightLbl</value>
+  </data>
+  <data name="AboutPanel_CheckForUpgradeLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 344</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ComponentVersionGridView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AboutPanel_CopyrightPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 92</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_AppLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_HeaderLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CopyrightPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_HeaderLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AboutPanel_ButtonBarSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AboutPanel_ComponentVersionGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 161</value>
+  </data>
+  <data name="AboutPanel_IntelCopyrightLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CopyrightPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AboutPanel_HeaderLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 6</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ComponentVersionGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AboutPanel_DevicescapeCopyrightLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 33</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_DevicescapeCopyrightLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_DevicescapeCopyrightLbl.Name" xml:space="preserve">
+    <value>AboutPanel_DevicescapeCopyrightLbl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AboutPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ComponentVersionGridView.Name" xml:space="preserve">
+    <value>AboutPanel_ComponentVersionGridView</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ComponentVersionGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AboutPanel_SeparatorAndButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 387</value>
+  </data>
+  <data name="AboutPanel_SeparatorAndButtonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CheckForUpgradeLinkLabel.Name" xml:space="preserve">
+    <value>AboutPanel_CheckForUpgradeLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CheckForUpgradeLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AboutPanel_CloseBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AboutPanel_CloseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AboutPanel_CloseBtn.BtnText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="AboutPanel_DevicescapeCopyrightLbl.Text" xml:space="preserve">
+    <value>Contains software licensed from Devicescape Software, Inc.  Copyright © 2004-2008 Devicescape Software, Inc.  All rights reserved.</value>
+  </data>
+  <data name="AboutPanel_DevicescapeCopyrightLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 59</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ButtonBarSeperator.Parent" xml:space="preserve">
+    <value>AboutPanel_SeparatorAndButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CheckForUpgradeLinkLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_CheckForUpgradeLinkLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AboutPanel_CopyrightPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 74</value>
+  </data>
+  <data name="AboutPanel_ComponentVersionGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_ButtonBarSeperator.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AboutPanel_HeaderLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AboutPanel_DevicescapeCopyrightLbl.Parent" xml:space="preserve">
+    <value>AboutPanel_CopyrightPanel</value>
+  </data>
+  <data name="AboutPanel_ButtonBarSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 14</value>
+  </data>
+  <data name="AboutPanel_ButtonBarSeperator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+</root>

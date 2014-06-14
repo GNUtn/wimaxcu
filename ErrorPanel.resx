@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ErrorPanel_OkBtnBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPushHorizBox, WiMAXCU_UICustomControls, Version=2.3.3623.27930, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtnBox.Name" xml:space="preserve">
+    <value>ErrorPanel_OkBtnBox</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBoxLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ErrorPanel_DetailsTxtBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ErrorPanel_OkBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ErrorPanel_OkBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBoxLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 140</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_BottomButtonBarSeperator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtn.Name" xml:space="preserve">
+    <value>ErrorPanel_OkBtn</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtn.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomButtonPush, WiMAXCU_UICustomControls, Version=2.3.3623.27930, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtn.Parent" xml:space="preserve">
+    <value>ErrorPanel_OkBtnBox</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 389</value>
+  </data>
+  <data name="ErrorPanel_TopButtonBarSeperator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ErrorPanel_TopButtonBarSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 3</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_BottomButtonBarSeperator.Name" xml:space="preserve">
+    <value>ErrorPanel_BottomButtonBarSeperator</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_BottomButtonBarSeperator.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelSeparator, WiMAXCU_UICustomControls, Version=2.3.3623.27930, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ErrorPanel_HelpButtonLabelPair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="ErrorPanel_HelpButtonLabelPair.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ErrorPanel_BottomButtonBarSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 321</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 160</value>
+  </data>
+  <data name="ErrorPanel_ProblemImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_TopButtonBarSeperator.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 148</value>
+  </data>
+  <data name="ErrorPanel_ProblemImage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_TopButtonBarSeperator.Name" xml:space="preserve">
+    <value>ErrorPanel_TopButtonBarSeperator</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_TopButtonBarSeperator.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelSeparator, WiMAXCU_UICustomControls, Version=2.3.3623.27930, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBoxLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 18</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBoxLbl.Text" xml:space="preserve">
+    <value>Details:</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_TopButtonBarSeperator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBoxLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBoxLbl.Name" xml:space="preserve">
+    <value>ErrorPanel_DetailsTxtBoxLbl</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ErrorPanel_DetailsTxtBoxLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ErrorPanel_TopButtonBarSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_ProblemImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_ProblemImage.Name" xml:space="preserve">
+    <value>ErrorPanel_ProblemImage</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ErrorPanel_TopButtonBarSeperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 103</value>
+  </data>
+  <data name="ErrorPanel_BottomButtonBarSeperator.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_HelpButtonLabelPair.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ErrorPanel_OkBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 0</value>
+  </data>
+  <data name="ErrorPanel_ProblemImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 36</value>
+  </data>
+  <data name="ErrorPanel_BottomButtonBarSeperator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ErrorPanel_BottomButtonBarSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 3</value>
+  </data>
+  <data name="ErrorPanel_HelpButtonLabelPair.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_HelpButtonLabelPair.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ErrorPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtnBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_OkBtnBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBoxLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_ProblemImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ErrorPanel_DetailsTxtBoxLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_HelpButtonLabelPair.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomHelpButtonLabelPair, WiMAXCU_UICustomControls, Version=2.3.3623.27930, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_HelpButtonLabelPair.Name" xml:space="preserve">
+    <value>ErrorPanel_HelpButtonLabelPair</value>
+  </data>
+  <data name="ErrorPanel_OkBtnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ErrorPanel_OkBtnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 28</value>
+  </data>
+  <data name="ErrorPanel_OkBtnBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ErrorPanel_OkBtn.BtnText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_BottomButtonBarSeperator.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBox.Name" xml:space="preserve">
+    <value>ErrorPanel_DetailsTxtBox</value>
+  </data>
+  <data name="ErrorPanel_ProblemImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBoxLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_ProblemImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ErrorPanel_OkBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ErrorPanel_OkBtnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 111</value>
+  </data>
+  <data name="ErrorPanel_ProblemImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="ErrorPanel_HelpButtonLabelPair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 6</value>
+  </data>
+  <data name="&gt;&gt;ErrorPanel_DetailsTxtBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+</root>

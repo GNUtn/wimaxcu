@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TaskbarTabPanel_HowToLaunchCULabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 45</value>
+  </data>
+  <data name="TaskbarTabPanel_HowToLaunchCULabel.Text" xml:space="preserve">
+    <value>This utility can always be opened from the Windows 'Start' menu (Start -&gt; All Programs -&gt; Intel PROSet/Wireless -&gt; WiMAX Connection Utility).  asdfa sdfas fas dfas fasdf </value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.ButtonBitmapDisabled" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAZtJREFUOE+tkmurAVEUhqfObzt/5fwZSVE+uYYh5YtLonEpRMgtlw+uhZRbCSXJe2at
+        mu3oMB06U097r7X3fmbPWiMB+BceJl/BYDB80vhw8a+oki8VqPgks9mMdzCZTCTQkFkUCoVewul0/pT4
+        VD6E6HQ64Xw+43K54Hq9qje/PRRTntar1eovibpFEqL9fo/tdovdbsfzw+GA4/HII8WULxaLQmI0Gmlk
+        yZ1otVphsVhguVxivV5js9kIKM7n80Jit9u5TprkTjSbzTAej5l+v4/5fC7IZrNCEgwGEY/Hn4tGoxE6
+        nQ48Hg+sViva7TaGwyEURRESWZY5Fw6Hn4tarRYikYg4ZLFY4Pf7RexyuZDL5VCv13n/U1Emk0E0GuUD
+        2mENm82GWCzGN0mlUvoielsikeBP8Xq9QuJwODhHaySjeumKSqUS0uk0C6nNgUAAbreb59QxunEymeS5
+        rohqRJvK5TLXodlsMo1GA5VKBYVCgW9Tq9X0Rd1ul9tO7Z9Op6L19FtMJhMMBgP0ej2W64pe5aHoXW4i
+        SN8lvdiP1XASAgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_TaskbarSettingsLabelSeparator.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TaskbarTabPanel_HowToLaunchCULabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.ButtonBitmapRollover" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAdJJREFUOE+tkktLVGEYgAf8AS0jJEpG0GyRG20z3kKhRFwMgnRqYc1RcCHudFYGGXiB
+        CFQId4mcEVOpyNLSZHShKOINcZHhDVMxCE0oxk48vt/ROcdydBjpwMN7+fgeXt7zuYD/QsRmLMiXZ8V/
+        D2JBvjJBJYZL13XOg8fjUYIwAUt07QUxcamk9bjEEOJs0TeZdVf4KewLpvDnKKpa9dX509aTEmm7bNFy
+        COb24POvw3ztN6yLRUVVq35NkyNxu90qWpK/RBM7ENyGse8wKfn0D5gRVFR19TNHcjlbw+fzyf1jiw+L
+        +jehawV6lkIYM5t8kPrjFlasaHQkOV6N3G7TWnhEUccSNM2GSL1VyMUribSMrhOQ3sMnjiStQMNYNLnZ
+        wemihmnIf2TYly7EJ3LjQZ1dJ+Vq6AMmjyfhetsZort9kNEJCV6/fTlMfKZG9kuT9AAUvTt8AqeKfINw
+        +xV4eyGl2JFdzdHwvjW58xqyuuBefxRR5QgUy1T6J1nuMKTf95Ocp1ERNCmVnpq44A1WfqZI7ahsCKpG
+        sfZQL7WiVnL/GJQHQZNpasajiJrnoW0Rulfh/VcYkF+v6NuQJyG99i/wfAHqpqKIYiWi6Lw4IlwHDhxb
+        hWcqd24AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_TaskbarSettingsLabelSeparator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 190</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.MultiLine" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TaskbarTabPanel_TaskbarSettingsLabelSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowTasktrayNotificationsChkBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TaskbarTabPanel_HowToLaunchCULabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowTasktrayNotificationsChkBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 20</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_HowToLaunchCULabel.Name" xml:space="preserve">
+    <value>TaskbarTabPanel_HowToLaunchCULabel</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_HowToLaunchCULabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 75</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowTasktrayNotificationsChkBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomCheckBox, WiMAXCU_UICustomControls, Version=6.1.3972.20262, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowTasktrayNotificationsChkBox.Name" xml:space="preserve">
+    <value>TaskbarTabPanel_ShowTasktrayNotificationsChkBox</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 20</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.ButtonBitmapPressed" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAfxJREFUOE+tkOtLk1Ecxwf9Bb3yRUIvhtKbbi9U0BEVzKQgFfGFiCltSZJmthepIaZ4
+        xcvUMtIUVOYKZyHeGcyHPc65C9O5vF8eZS5vlf0J3845sKPVNph44MPvcs75cM5PBuBcCNgMB7KULP67
+        EQ5k5RJo0i9Tq9U4CwqFggr86JkoudoYFjdSCk9L+gkXuGjN+wNbvp/Y2f+F3cNjfD/6zaE17dP9yrqm
+        /yTsm36Re/MAs8s+uNb3WO6RDrAoHbJIa9p/9aaeS+RyOY1M8pfI7PHC6NqBsODF9LddzCz5OLTWlNVy
+        SXSsEiqVitw/NXi/aNQhwTC9DoO4gr5xG8ZIPe6UWHxWUs0lt+89xOPWKTbwgKLP5jV0jLlxM/4uIi5d
+        RvugyHpqTSWXxN15AL2wgoxGU3DR2xEP0guq+KWLEZFQpOXx+mpCEop7rGgeciO1xhhcVNRlxSOtgOuJ
+        mfyyn6gYJbK1JmQ0mPC808LOBxUV99rw5J0Z+R0WxN7P4pIrcYnI/yAit11EdosATbc1tKjikxMvPs6g
+        pNeOcr0Tt5JzcI18p1xnR2mfnb346XuR5SFFdEavyaGaARebA60pWpLXGuZQpnPgJXlNw9f50KLOyUXo
+        hFUMWjYwYtvChHObMWqX8IX09GSv27iEtuGF0KJwCSg6KyciyP4ALm06R+GxoQkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.ButtonBitmapPressed" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAfxJREFUOE+tkOtLk1Ecxwf9Bb3yRUIvhtKbbi9U0BEVzKQgFfGFiCltSZJmthepIaZ4
+        xcvUMtIUVOYKZyHeGcyHPc65C9O5vF8eZS5vlf0J3845sKPVNph44MPvcs75cM5PBuBcCNgMB7KULP67
+        EQ5k5RJo0i9Tq9U4CwqFggr86JkoudoYFjdSCk9L+gkXuGjN+wNbvp/Y2f+F3cNjfD/6zaE17dP9yrqm
+        /yTsm36Re/MAs8s+uNb3WO6RDrAoHbJIa9p/9aaeS+RyOY1M8pfI7PHC6NqBsODF9LddzCz5OLTWlNVy
+        SXSsEiqVitw/NXi/aNQhwTC9DoO4gr5xG8ZIPe6UWHxWUs0lt+89xOPWKTbwgKLP5jV0jLlxM/4uIi5d
+        RvugyHpqTSWXxN15AL2wgoxGU3DR2xEP0guq+KWLEZFQpOXx+mpCEop7rGgeciO1xhhcVNRlxSOtgOuJ
+        mfyyn6gYJbK1JmQ0mPC808LOBxUV99rw5J0Z+R0WxN7P4pIrcYnI/yAit11EdosATbc1tKjikxMvPs6g
+        pNeOcr0Tt5JzcI18p1xnR2mfnb346XuR5SFFdEavyaGaARebA60pWpLXGuZQpnPgJXlNw9f50KLOyUXo
+        hFUMWjYwYtvChHObMWqX8IX09GSv27iEtuGF0KJwCSg6KyciyP4ALm06R+GxoQkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.AccessibleDescription" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.ButtonBitmapDisabled" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAZtJREFUOE+tkmurAVEUhqfObzt/5fwZSVE+uYYh5YtLonEpRMgtlw+uhZRbCSXJe2at
+        mu3oMB06U097r7X3fmbPWiMB+BceJl/BYDB80vhw8a+oki8VqPgks9mMdzCZTCTQkFkUCoVewul0/pT4
+        VD6E6HQ64Xw+43K54Hq9qje/PRRTntar1eovibpFEqL9fo/tdovdbsfzw+GA4/HII8WULxaLQmI0Gmlk
+        yZ1otVphsVhguVxivV5js9kIKM7n80Jit9u5TprkTjSbzTAej5l+v4/5fC7IZrNCEgwGEY/Hn4tGoxE6
+        nQ48Hg+sViva7TaGwyEURRESWZY5Fw6Hn4tarRYikYg4ZLFY4Pf7RexyuZDL5VCv13n/U1Emk0E0GuUD
+        2mENm82GWCzGN0mlUvoielsikeBP8Xq9QuJwODhHaySjeumKSqUS0uk0C6nNgUAAbreb59QxunEymeS5
+        rohqRJvK5TLXodlsMo1GA5VKBYVCgW9Tq9X0Rd1ul9tO7Z9Op6L19FtMJhMMBgP0ej2W64pe5aHoXW4i
+        SN8lvdiP1XASAgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowSystemTrayIconChkBox.Name" xml:space="preserve">
+    <value>TaskbarTabPanel_ShowSystemTrayIconChkBox</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowSystemTrayIconChkBox.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomCheckBox, WiMAXCU_UICustomControls, Version=6.1.3972.20262, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.ButtonBitmapNormal" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAdtJREFUOE+tkktIVFEYgAfc2s7UwIU2uiglWhSVjIPgIwp89MbrSmdokWBgCrNSTMhN
+        Js2Qo1T00PERY4tMEV9EixItSY2C8AFqaRCB2Ea48PmfO8xcq9FhxAMf/+NwPs7977EA+0LYZjTIyjPi
+        vxvRIOu6oBKfxel0shdsNpsSBOk0RAfvEhUHLrdtl/iEmJDo6y+Y/w1L6/BjA9b+wE9BRVWrvtqvv/e/
+        xPjMoGjyO4wtwrvlQD61Cp/WAlHVql91x5RYrVYVDclfooE58H+Bvm8wKPnwAowIKqq6osGUxJ/RcDgc
+        cn7b4IOijlnwfoC2iU08Y6v4pO78jBHLak1J5nmN4626MfCwIs8E1I1uctRWSFxSKrdfr+CW3lWXKTmW
+        q3F/XMfqYWdRzTBkVflCh2ITU0m71hiqk7M0irt0KgchoWkXUV47HHkAiedcocNB4k5pZLToHHZD9rPA
+        E9hRVNQNJx6C/SmkFJiyQ5ka9ic6Jx9BuhfOdkQQlb6EHLlVcQ+U9ELGJRcpdo0Sv84F6akbn36Mke8q
+        UjO6+ALKX2HMoVpqxU3JnX1wxQ/5cpsb/RFEdW+g6T20foTn09Alv17RPiNPQnrN49DwFm4NRRBFS1jR
+        XjFFWLYAL0FGNLsMdfMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TaskbarTabPanel_TaskbarSettingsLabelSeparator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="TaskbarTabPanel_TaskbarSettingsLabelSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 14</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.ButtonBitmapRollover" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAdJJREFUOE+tkktLVGEYgAf8AS0jJEpG0GyRG20z3kKhRFwMgnRqYc1RcCHudFYGGXiB
+        CFQId4mcEVOpyNLSZHShKOINcZHhDVMxCE0oxk48vt/ROcdydBjpwMN7+fgeXt7zuYD/QsRmLMiXZ8V/
+        D2JBvjJBJYZL13XOg8fjUYIwAUt07QUxcamk9bjEEOJs0TeZdVf4KewLpvDnKKpa9dX509aTEmm7bNFy
+        COb24POvw3ztN6yLRUVVq35NkyNxu90qWpK/RBM7ENyGse8wKfn0D5gRVFR19TNHcjlbw+fzyf1jiw+L
+        +jehawV6lkIYM5t8kPrjFlasaHQkOV6N3G7TWnhEUccSNM2GSL1VyMUribSMrhOQ3sMnjiStQMNYNLnZ
+        wemihmnIf2TYly7EJ3LjQZ1dJ+Vq6AMmjyfhetsZort9kNEJCV6/fTlMfKZG9kuT9AAUvTt8AqeKfINw
+        +xV4eyGl2JFdzdHwvjW58xqyuuBefxRR5QgUy1T6J1nuMKTf95Ocp1ERNCmVnpq44A1WfqZI7ahsCKpG
+        sfZQL7WiVnL/GJQHQZNpasajiJrnoW0Rulfh/VcYkF+v6NuQJyG99i/wfAHqpqKIYiWi6Lw4IlwHDhxb
+        hWcqd24AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowSystemTrayIconChkBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 50</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_ShowSystemTrayIconChkBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_HowToLaunchCULabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TaskbarTabPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TaskbarTabPanel_HowToLaunchCULabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 107</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.AccessibleDescription" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_HowToLaunchCULabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TaskbarTabPanel_TaskbarSettingsLabelSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowTasktrayNotificationsChkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.MultiLine" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_TaskbarSettingsLabelSeparator.Name" xml:space="preserve">
+    <value>TaskbarTabPanel_TaskbarSettingsLabelSeparator</value>
+  </data>
+  <data name="&gt;&gt;TaskbarTabPanel_TaskbarSettingsLabelSeparator.Type" xml:space="preserve">
+    <value>Intel.Mobile.WiMAXCU.UI.CustomControls.CustomLabelSeparator, WiMAXCU_UICustomControls, Version=6.1.3972.20262, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TaskbarTabPanel_ShowSystemTrayIconChkBox.ButtonBitmapNormal" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScQAA
+        EnEB89x6jgAAAdtJREFUOE+tkktIVFEYgAfc2s7UwIU2uiglWhSVjIPgIwp89MbrSmdokWBgCrNSTMhN
+        Js2Qo1T00PERY4tMEV9EixItSY2C8AFqaRCB2Ea48PmfO8xcq9FhxAMf/+NwPs7977EA+0LYZjTIyjPi
+        vxvRIOu6oBKfxel0shdsNpsSBOk0RAfvEhUHLrdtl/iEmJDo6y+Y/w1L6/BjA9b+wE9BRVWrvtqvv/e/
+        xPjMoGjyO4wtwrvlQD61Cp/WAlHVql91x5RYrVYVDclfooE58H+Bvm8wKPnwAowIKqq6osGUxJ/RcDgc
+        cn7b4IOijlnwfoC2iU08Y6v4pO78jBHLak1J5nmN4626MfCwIs8E1I1uctRWSFxSKrdfr+CW3lWXKTmW
+        q3F/XMfqYWdRzTBkVflCh2ITU0m71hiqk7M0irt0KgchoWkXUV47HHkAiedcocNB4k5pZLToHHZD9rPA
+        E9hRVNQNJx6C/SmkFJiyQ5ka9ic6Jx9BuhfOdkQQlb6EHLlVcQ+U9ELGJRcpdo0Sv84F6akbn36Mke8q
+        UjO6+ALKX2HMoVpqxU3JnX1wxQ/5cpsb/RFEdW+g6T20foTn09Alv17RPiNPQnrN49DwFm4NRRBFS1jR
+        XjFFWLYAL0FGNLsMdfMAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>

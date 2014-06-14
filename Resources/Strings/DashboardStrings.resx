@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CapitalClickHere_Clickable" xml:space="preserve">
+    <value>Click here</value>
+  </data>
+  <data name="WiMAXUpdatesAreBeingDownloaded" xml:space="preserve">
+    <value>WiMAX updates are being downloaded.  {0} for status.</value>
+  </data>
+  <data name="Dashboard_HardwareRadioOff" xml:space="preserve">
+    <value>The hardware radio switch is off.  To connect, turn on the hardware radio switch.  Click Help for more information.</value>
+  </data>
+  <data name="EditPropertiesEllipse" xml:space="preserve">
+    <value>Edit Properties...</value>
+  </data>
+  <data name="WiMAXRadioColon" xml:space="preserve">
+    <value>WiMAX:</value>
+  </data>
+  <data name="Dashboard_StoppingConnect" xml:space="preserve">
+    <value>Stopping the connect...</value>
+  </data>
+  <data name="ActiveRoutesPopup_WiMAXOn" xml:space="preserve">
+    <value>There are currently other active network
+connections (e.g. - Ethernet) that may
+prevent WiMAX from being successfully
+activated on your computer.  Please 
+disconnect these network connections
+before clicking Yes below.  
+{0} for more information.
+    
+Do you want to turn on WiMAX?</value>
+  </data>
+  <data name="AboutEllipse" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="StopConnecting" xml:space="preserve">
+    <value>Stop Connect</value>
+  </data>
+  <data name="WiFiOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="ConnectedNetworksX" xml:space="preserve">
+    <value>Connected networks ({0})</value>
+  </data>
+  <data name="Dashboard_DisconnectingFromX" xml:space="preserve">
+    <value>Disconnecting from {0}...</value>
+  </data>
+  <data name="Dashboard_WaitingForWiMAX" xml:space="preserve">
+    <value>Initializing WiMAX.  Please be patient...</value>
+  </data>
+  <data name="AdvancedEllipse" xml:space="preserve">
+    <value>Advanced...</value>
+  </data>
+  <data name="Prompt_ConfirmDisconnectDuringFUMODownload" xml:space="preserve">
+    <value>WiMAX updates are currently being downloaded.  If you disconnect, the download will be stopped.
+    
+Do you want to disconnect from {0}?</value>
+  </data>
+  <data name="Prompt_WiMAXConnectionWillBeBroken" xml:space="preserve">
+    <value>WiFi and WiMAX cannot operate at the same time.  Turning on WiFi will disconnect WiMAX.
+        
+Do you want to turn on WiFi?</value>
+  </data>
+  <data name="Dashboard_ConnectingToX" xml:space="preserve">
+    <value>Connecting to {0}...</value>
+  </data>
+  <data name="Dashboard_ReconnectingToX" xml:space="preserve">
+    <value>Reconnecting to {0}...</value>
+  </data>
+  <data name="Dashboard_DisconnectingFromNetwork" xml:space="preserve">
+    <value>Disconnecting from network...</value>
+  </data>
+  <data name="Prompt_ConfirmRadioOffDuringFUMODownload" xml:space="preserve">
+    <value>WiMAX updates are currently being downloaded.  If you turn off WiMAX, the download will be stopped.
+    
+Do you want to turn off WiMAX?</value>
+  </data>
+  <data name="DashboardCollapsed_PreferredProfileNotAvailable" xml:space="preserve">
+    <value>{0} is not available to connect.
+
+Click 'Search' to search for {0}.</value>
+  </data>
+  <data name="Dashboard_BlockedForScan_NoNetworksAvail" xml:space="preserve">
+    <value>The search is in progress.  No networks have been found yet.</value>
+  </data>
+  <data name="NetworkListBox_HeaderFontSize" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Dashboard_SoftwareRadioOff" xml:space="preserve">
+    <value>WiMAX is off.  To connect, turn on WiMAX.</value>
+  </data>
+  <data name="Dashboard_TurningWiMAXOn" xml:space="preserve">
+    <value>Turning WiMAX on...</value>
+  </data>
+  <data name="Dashboard_ConnectingToNetwork" xml:space="preserve">
+    <value>Connecting to the network...</value>
+  </data>
+  <data name="WiFiOn" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="SearchForNetworks" xml:space="preserve">
+    <value>Search for Networks</value>
+  </data>
+  <data name="DualModeWarningForWiFi" xml:space="preserve">
+    <value>WiFi and WiMAX are both on.  This may
+negatively impact your computer's wireless internet
+access speed and reliability.  To avoid this, you should
+turn off WiMAX when not in use.  For instructions on
+how to turn off WiMAX, {0}.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Dashboard_ConnectingToXLongOperation" xml:space="preserve">
+    <value>Still attempting to connect to {0}.  Please be patient...</value>
+  </data>
+  <data name="DashboardExpanded_NoPreferredProfile_NetworksAvail" xml:space="preserve">
+    <value>Select a network from the list and click 'Connect'.</value>
+  </data>
+  <data name="SearchingForNetworksPercentCompleteEllipse" xml:space="preserve">
+    <value>Searching for WiMAX networks ({0}% complete)...</value>
+  </data>
+  <data name="StopSearching" xml:space="preserve">
+    <value>Stop Search</value>
+  </data>
+  <data name="Prompt_ConnectToUnknownNetworkWarning" xml:space="preserve">
+    <value>This network is unidentified and may not operate properly with the WiMAX installation on this computer.
+    
+Do you want to connect anyway?</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="ConnectedToColon" xml:space="preserve">
+    <value>Connected to:</value>
+  </data>
+  <data name="DashboardExpanded_PreferredProfileAvailable" xml:space="preserve">
+    <value>{0} is available to connect.
+    
+Click 'Search for Networks' to search for other available WiMAX networks.</value>
+  </data>
+  <data name="Dashboard_BlockedForScan_NetworksAvail" xml:space="preserve">
+    <value>Select a network from the list and click 'Connect'.</value>
+  </data>
+  <data name="Dashboard_StoppingSearch" xml:space="preserve">
+    <value>Stopping the search...</value>
+  </data>
+  <data name="ViewDetailsEllipse" xml:space="preserve">
+    <value>View Details...</value>
+  </data>
+  <data name="DashboardExpanded_NoPreferredProfile_NoNetworksAvail" xml:space="preserve">
+    <value>Click 'Search for Networks' to search for available WiMAX networks.</value>
+  </data>
+  <data name="DashboardExpanded_PreferredProfileNotAvailable" xml:space="preserve">
+    <value>{0} is not available to connect.
+
+Click 'Search for Networks' to search for all available WiMAX networks.</value>
+  </data>
+  <data name="SysMenuAbout" xml:space="preserve">
+    <value>About {0}...</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details...</value>
+  </data>
+  <data name="ApplicationCaption" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX Connection Utility</value>
+  </data>
+  <data name="Prompt_WiFiDeviceConnectionWillBeBroken_Ver2" xml:space="preserve">
+    <value>WiFi and WiMAX cannot operate at the
+same time.  Turning on WiMAX will
+disconnect all WiFi devices connected
+to your computer and turn off WiFi.
+You can always turn WiFi back on
+from this application's WiFi menu.
+{0} for more information.
+        
+Do you want to turn on WiMAX?</value>
+  </data>
+  <data name="Dashboard_NotPrimaryCU" xml:space="preserve">
+    <value>Another application is currently managing WiMAX connections.  Click Help for more information.</value>
+  </data>
+  <data name="ConnectedNetwork" xml:space="preserve">
+    <value>Connected network</value>
+  </data>
+  <data name="APDO_PromptUserPackageInstall" xml:space="preserve">
+    <value>The WiMAX updates have been downloaded.  These
+updates are critical for the normal operation
+of WiMAX.
+    
+Do you want to install the updates now?</value>
+  </data>
+  <data name="UptimeFormatOneDay" xml:space="preserve">
+    <value>1 day {0:d2}:{1:d2}:{2:d2}</value>
+  </data>
+  <data name="DashboardExpanded_AfterWideScanCompleted_NetworksAvail" xml:space="preserve">
+    <value>Select a network from the list and click 'Connect'.</value>
+  </data>
+  <data name="Dashboard_SearchingForX" xml:space="preserve">
+    <value>Searching for {0}...</value>
+  </data>
+  <data name="Prompt_WiFiConnectionWillBeBroken_Ver2" xml:space="preserve">
+    <value>WiFi and WiMAX cannot operate at the
+same time.  Turning on WiMAX will
+disconnect and turn off WiFi.  You
+can always turn WiFi back on from
+this application's WiFi menu.
+{0} for more information.
+        
+Do you want to turn on WiMAX?</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="UptimeFormatXDays" xml:space="preserve">
+    <value>{0} days {1:d2}:{2:d2}:{3:d2}</value>
+  </data>
+  <data name="APDO_NotifyUserPackageInstall" xml:space="preserve">
+    <value>The WiMAX updates have been downloaded.
+    
+Installation will begin in {0} seconds...</value>
+  </data>
+  <data name="SubscribeForServiceAndFirewallPopup" xml:space="preserve">
+    <value>{0}
+
+If you have not yet subscribed for WiMAX service
+with {1}, please take this opportunity to do
+so.  Your web browser may open automatically (it
+could take up to 30 seconds).  If not, {2}
+to open it.
+
+You may need to configure your personal firewall to allow
+access.  {3} for more information.</value>
+  </data>
+  <data name="DashboardExpanded_AfterWideScanCompleted_NoNetworksAvail" xml:space="preserve">
+    <value>No WiMAX networks are available to connect.</value>
+  </data>
+  <data name="Dashboard_SearchingForNetworks" xml:space="preserve">
+    <value>Searching for WiMAX networks...</value>
+  </data>
+  <data name="Dashboard_BlockedForScan_PreferredProfileNotAvail" xml:space="preserve">
+    <value>The search is in progress.  {0} has not been found yet.</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Dashboard_WiMAXNotReady" xml:space="preserve">
+    <value>WiMAX is not ready.  Click Help for more information.</value>
+  </data>
+  <data name="HelpFileNotFound" xml:space="preserve">
+    <value>Could not find help file {0}.</value>
+  </data>
+  <data name="ShortenedApplicationCaption" xml:space="preserve">
+    <value>Intel® PROSet/Wireless WiMAX</value>
+  </data>
+  <data name="Dashboard_TurningWiMAXOff" xml:space="preserve">
+    <value>Turning WiMAX off...</value>
+  </data>
+  <data name="Prompt_WiFiAndDeviceConnectionWillBeBroken_Ver2" xml:space="preserve">
+    <value>WiFi and WiMAX cannot operate at the
+same time.  Turning on WiMAX will
+disconnect WiFi and all WiFi devices
+connected to your computer and turn
+off WiFi.  You can always turn WiFi
+back on from this application's WiFi
+menu.  {0} for more
+information.
+        
+Do you want to turn on WiMAX?</value>
+  </data>
+  <data name="LowerCaseClickHere_Clickable" xml:space="preserve">
+    <value>click here</value>
+  </data>
+  <data name="SignalValue" xml:space="preserve">
+    <value>({0})</value>
+  </data>
+  <data name="NetworksAvailableToConnectX" xml:space="preserve">
+    <value>Networks available to connect ({0})</value>
+  </data>
+  <data name="SignalColon" xml:space="preserve">
+    <value>Signal:</value>
+  </data>
+  <data name="DualModeWarningForWiMAX" xml:space="preserve">
+    <value>WiFi and WiMAX are both on.  This may
+negatively impact your computer's wireless internet
+access speed and reliability.  To avoid this, you should
+turn off WiFi when not in use.  For instructions on
+how to turn off WiFi, {0}.</value>
+  </data>
+  <data name="AvailableWiMAXNeworks" xml:space="preserve">
+    <value>Available WiMAX Networks:</value>
+  </data>
+  <data name="Dashboard_ConnectingToNetworkLongOperation" xml:space="preserve">
+    <value>Still attempting to connect to the network.  Please be patient...</value>
+  </data>
+  <data name="Dashboard_InitializingApplication" xml:space="preserve">
+    <value>Initializing the application.  Please be patient...</value>
+  </data>
+  <data name="UptimeFormat" xml:space="preserve">
+    <value>{0:d2}:{1:d2}:{2:d2}</value>
+  </data>
+  <data name="PreferencesEllipse" xml:space="preserve">
+    <value>Preferences...</value>
+  </data>
+  <data name="BalloonMsg_WiMAXHasLimitedOrNoConnectivity" xml:space="preserve">
+    <value>WiMAX has limited or no connectivity.   You may not be able to access the internet until this issue is resolved.
+    
+Click this message for more information.</value>
+  </data>
+  <data name="DashboardCollapsed_PreferredProfileAvailable_Bottom" xml:space="preserve">
+    <value>Click 'Connect' to connect to {0}.</value>
+  </data>
+  <data name="DashboardCollapsed_PreferredProfileAvailable_Top" xml:space="preserve">
+    <value>{0} is available to connect.</value>
+  </data>
+  <data name="APDO_PromptUserPackageDownload" xml:space="preserve">
+    <value>WiMAX updates are available.  These updates
+are critical for the normal operation of WiMAX.
+{0} for more information.
+    
+Do you want to download the updates now?</value>
+  </data>
+  <data name="OpenWebBrowserClickHere_Clickable" xml:space="preserve">
+    <value>click here</value>
+  </data>
+  <data name="ManageNetworksEllipse" xml:space="preserve">
+    <value>Manage Networks...</value>
+  </data>
+  <data name="TechSupportEllipse" xml:space="preserve">
+    <value>Support...</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="WiFi" xml:space="preserve">
+    <value>WiFi</value>
+  </data>
+  <data name="ActiveRoutesPopup_Connect" xml:space="preserve">
+    <value>There are currently other active network
+connections (e.g. - Ethernet) that may
+prevent WiMAX from being successfully
+activated on your computer.  Please 
+disconnect these network connections
+before clicking Yes below.  
+{1} for more information.
+    
+Do you want to connect to {0}?</value>
+  </data>
+  <data name="DefaultURL" xml:space="preserve">
+    <value>http://www.intel.com/Go/GetWiMAX/</value>
+  </data>
+</root>
